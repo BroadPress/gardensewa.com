@@ -45,7 +45,7 @@ const FlowersBlog = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center mb-30">
       <Head>
         <title>Flowers and Mental Health</title>
         <meta

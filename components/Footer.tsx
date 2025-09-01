@@ -133,7 +133,7 @@ type AppStoreButtonsProps = {
 const AppStoreButtons = memo(({ isMobile = false }: AppStoreButtonsProps) => (
   <div
     className={`gap-2 sm:gap-3 flex ${
-      isMobile ? "flex-col justify-center" : "flex-col items-start"
+      isMobile ? "flex-col justify-center" : "flex-row items-start"
     }`}
   >
     <Image

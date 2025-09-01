@@ -168,7 +168,7 @@ const PlantCard: React.FC<Plant> = ({
           className="w-full h-full object-cover"
           onError={(e) => {
             e.currentTarget.src =
-              "https://placehold.co/320x224/e5f3e5/4a7c59?text=Plant+Image";
+              "https://garden.com/plant.jpg";
           }}
         />
       </div>

@@ -271,7 +271,7 @@ const ServicesAndPlants: React.FC = () => {
         </div>
       </section>
 
-      {/* Explore Plants Section */}
+      {/* Explore Plants Section
       <section className="mb-20">
         <div className="flex flex-row justify-between items-center mb-10  mx-auto p-2">
           <h2 className="text-2xl lg:text-4xl font-bold text-secondary">
@@ -289,7 +289,7 @@ const ServicesAndPlants: React.FC = () => {
             <PlantCard key={key} {...plant} />
           ))}
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

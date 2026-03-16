@@ -24,18 +24,18 @@ const postData: BlogPost[] = [
   {
     id: 1,
     title: "The Blooming Business of Gardening Services",
-    author: "Niranjan Sharma",
+    author: "Thiranjan Sharma",
     date: "29/07/2025",
     readTime: "5 min",
     snippet:
       "Gardening is more than just planting flowers or vegetables — it is a full-fledged industry. From selling indoor plants to setting up home gardens, vertical gardens, rooftop greenery, and landscape designing, the gardening business offers multiple income sources. People today are more health-conscious, environmentally aware, and interested in aesthetic living. As a result, ...",
     imageUrl: "/image/navbar/blog/Blog-1.png",
-    photo: "/image/navbar/contact/Niranjan-Sharma.png",
+    photo: "/image/navbar/contact/Thiranjan-Sharma.png",
   },
   {
     id: 2,
     title: "How a Flower Brings Happiness",
-    author: "Pracas Upreti",
+    author: "Aakash Thapa",
     date: "29/07/2025",
     readTime: "5 min",
     snippet:
@@ -57,7 +57,7 @@ const postData: BlogPost[] = [
   {
     id: 4,
     title: "How to Detox Your Life Naturally With Everyday Habits",
-    author: "Pracas Upreti",
+    author: "Aakash Thapa",
     date: "29/07/2025",
     readTime: "5 min",
     snippet:
@@ -68,40 +68,40 @@ const postData: BlogPost[] = [
   {
     id: 5,
     title: "Happiness is Homemade — and Homegrown",
-    author: "Niranjan Sharma",
+    author: "Thiranjan Sharma",
     date: "29/07/2025",
     readTime: "5 min",
     snippet:
       "True happiness often lies in simple joys — like seeing a seed sprout, harvesting your own vegetables, ...",
     imageUrl: "/image/navbar/blog/Blog-5.jpg",
-    photo: "/image/navbar/contact/Niranjan-Sharma.png",
+    photo: "/image/navbar/contact/Thiranjan-Sharma.png",
   },
   {
     id: 6,
     title: "How Mindfulness and Gardening Go Hand in Hand",
-    author: "Niranjan Sharma",
+    author: "Thiranjan Sharma",
     date: "29/07/2025",
     readTime: "5 min",
     snippet:
       "In a fast-paced world, mindfulness is the anchor that brings us back to the present. And there’s no better place ...",
     imageUrl: "/image/navbar/blog/Blog-6.jpg",
-    photo: "/image/navbar/contact/Niranjan-Sharma.png",
+    photo: "/image/navbar/contact/Thiranjan-Sharma.png",
   },
   {
     id: 7,
     title: "Why Gardening Services Are the Future of Urban Living",
-    author: "Niranjan Sharma",
+    author: "Thiranjan Sharma",
     date: "29/07/2025",
     readTime: "5 min",
     snippet:
       "With shrinking open spaces and busier schedules, urban dwellers are turning to gardening professionals ...",
     imageUrl: "/image/navbar/blog/Blog-7.jpg",
-    photo: "/image/navbar/contact/Niranjan-Sharma.png",
+    photo: "/image/navbar/contact/Thiranjan-Sharma.png",
   },
   {
     id: 8,
     title: "Green is the New Lifestyle — Embrace the Garden Life",
-    author: "Pracas Upreti",
+    author: "Aakash Thapa",
     date: "29/07/2025",
     readTime: "5 min",
     snippet:

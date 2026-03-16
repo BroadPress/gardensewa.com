@@ -78,9 +78,8 @@ export default function AboutPage() {
 
           {/* Section description */}
           <p className="max-w-[858px] mb-8 text-base leading-relaxed md:text-lg text-[#333333]">
-            We believe that everyone deserves a little more green in their life.
-            Garden Sewa is built to bring plants, people, and peace together
-            through simple and thoughtful gardening services.
+            We believe every home and workspace deserves a beautiful green space. Garden Sewa provides professional gardening services in Nepal. Our mission is to bring plants, people, and nature together by creating healthy, well-maintained gardens that add beauty, relaxation, and sustainability to everyday life.
+
           </p>
         </div>
       </div>
@@ -92,7 +91,7 @@ export default function AboutPage() {
           <div className="lg:w-1/2 flex flex-col justify-between p-6 md:p-10 lg:p-12 bg-white">
             <div>
               <h1 className="text-3xl md:text-5xl font-bold text-secondary mb-6 leading-tight">
-                Helping You Grow the <br /> Garden You Love
+                Best Garden Maintenance  <br /> Services in Nepal
               </h1>
               <p className="text-[#444444] text-base md:text-lg leading-relaxed mb-10">
                 Every project we've worked on has been a shared journey — from

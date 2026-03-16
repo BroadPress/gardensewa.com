@@ -75,7 +75,7 @@ const FlowersBlog = () => {
             {/* Author avatar */}
             <div className="w-10 h-10 rounded-full overflow-hidden">
               <img
-                src="image/userimage/ina.png"
+                src="image/userimage/1.png"
                 alt="Ina Adhikari"
                 className="w-full h-full object-cover"
               />

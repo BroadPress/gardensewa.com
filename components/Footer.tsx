@@ -24,14 +24,14 @@ const NEWS_ITEMS = [
     id: 1,
     image: "/image/navbar/navimg1.png",
     title: "How Flower Brings Happiness",
-    author: "Pracas Upreti",
+    author: "Aakash Thapa",
     date: "29/07/2025",
   },
   {
     id: 2,
     image: "/image/navbar/navimg2.png",
     title: "The Blooming Business of GardenSewa",
-    author: "Niranjan Sharma",
+    author: "Thiranjan Sharma",
     date: "29/07/2025",
   },
 ];

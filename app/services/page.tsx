@@ -20,7 +20,7 @@ const topServices: Service[] = [
     title: "Lawn Care",
     description:
       "Professional lawn maintenance including mowing, edging, fertilizing, and regular upkeep to keep your grass healthy and green year-round.",
-    imageUrl: "/image/navbar/services/1.png",
+    imageUrl: "/services/1.jpg",
     altText: "Lawn Care Services",
   },
   {
@@ -28,7 +28,7 @@ const topServices: Service[] = [
     title: "Planting and Transplanting",
     description:
       "Expert planting services for trees, shrubs, flowers, and vegetables, including transplanting existing plants to new locations for optimal growth.",
-    imageUrl: "/image/navbar/services/2.png",
+    imageUrl: "/services/2.jpg",
     altText: "Planting and Transplanting Services",
   },
   {
@@ -36,7 +36,7 @@ const topServices: Service[] = [
     title: "Garden Maintenance",
     description:
       "Comprehensive garden care including weeding, pruning, mulching, and seasonal maintenance to keep your garden flourishing throughout the year.",
-    imageUrl: "/image/navbar/services/3.png",
+    imageUrl: "/services/3.jpg",
     altText: "Garden Maintenance Services",
   },
   {
@@ -44,7 +44,7 @@ const topServices: Service[] = [
     title: "Soil Improvement",
     description:
       "Soil testing, amendment, and preparation services to ensure optimal growing conditions for all your plants and landscaping projects.",
-    imageUrl: "/image/navbar/services/4.png",
+    imageUrl: "/services/4.jpg",
     altText: "Soil Improvement Services",
   },
   {
@@ -52,7 +52,7 @@ const topServices: Service[] = [
     title: "Irrigation Services",
     description:
       "Installation, repair, and maintenance of irrigation systems including sprinklers and drip systems to ensure efficient water distribution.",
-    imageUrl: "/image/navbar/services/5.png",
+    imageUrl: "/services/5.jpg",
     altText: "Irrigation Services",
   },
   {
@@ -60,7 +60,7 @@ const topServices: Service[] = [
     title: "Pest and Disease Control",
     description:
       "Integrated pest management and disease prevention services to protect your plants and maintain a healthy landscape environment.",
-    imageUrl: "/image/navbar/services/6.png",
+    imageUrl: "/services/6.jpg",
     altText: "Pest and Disease Control Services",
   },
   {
@@ -68,7 +68,7 @@ const topServices: Service[] = [
     title: "Hardscaping",
     description:
       "Installation of patios, walkways, retaining walls, stone features, and other non-living landscape elements to enhance outdoor spaces.",
-    imageUrl: "/image/navbar/services/7.png",
+    imageUrl: "/services/7.jpg",
     altText: "Hardscaping Services",
   },
   {
@@ -76,7 +76,7 @@ const topServices: Service[] = [
     title: "Seasonal Services",
     description:
       "Season-specific maintenance including spring cleanups, fall leaf removal, winter preparation, and holiday decoration services.",
-    imageUrl: "/image/navbar/services/8.png",
+    imageUrl: "/services/8.jpg",
     altText: "Seasonal Services",
   },
   {
@@ -84,7 +84,7 @@ const topServices: Service[] = [
     title: "Landscape Design",
     description:
       "Professional landscape design and planning services to create beautiful, functional outdoor spaces tailored to your needs and preferences.",
-    imageUrl: "/image/navbar/services/9.png",
+    imageUrl: "/services/9.jpg",
     altText: "Landscape Design Services",
   },
   {
@@ -92,7 +92,7 @@ const topServices: Service[] = [
     title: "Tree Sales",
     description:
       "Wide selection of quality trees for sale including shade trees, ornamental trees, and fruit trees with expert advice on selection and care.",
-    imageUrl: "/image/navbar/services/10.png",
+    imageUrl: "/services/10.jpg",
     altText: "Tree Sales Services",
   },
   {
@@ -100,7 +100,7 @@ const topServices: Service[] = [
     title: "Plant Propagation",
     description:
       "Professional plant propagation services including seed starting, cutting propagation, and grafting to expand your plant collection.",
-    imageUrl: "/image/navbar/services/11.png",
+    imageUrl: "/services/11.jpg",
     altText: "Plant Propagation Services",
   },
   {
@@ -108,7 +108,7 @@ const topServices: Service[] = [
     title: "Soil and Fertilizers",
     description:
       "Premium soil blends, compost, fertilizers, and soil amendments to nourish your plants and improve growing conditions.",
-    imageUrl: "/image/navbar/services/12.png",
+    imageUrl: "/services/12.jpg",
     altText: "Soil and Fertilizers Services",
   },
   {
@@ -116,9 +116,26 @@ const topServices: Service[] = [
     title: "Consultation Services",
     description:
       "Expert consultation on landscape planning, plant selection, garden design, and maintenance strategies for optimal results.",
-    imageUrl: "/image/navbar/services/13.png",
+    imageUrl: "/services/13.jpg",
     altText: "Consultation Services",
   },
+
+  {
+  id: 14,
+  title: "Tree Pruning & Removal",
+  description:
+    "Professional tree pruning, trimming, and safe removal services to maintain tree health, improve appearance, and eliminate hazardous or damaged trees from your property.",
+  imageUrl: "/services/14.jpg",
+  altText: "Tree Pruning and Removal Services",
+},
+{
+  id: 15,
+  title: "Landscape Lighting",
+  description:
+    "Design and installation of outdoor landscape lighting including pathway lights, garden lighting, and accent illumination to enhance safety, beauty, and nighttime usability of your outdoor spaces.",
+  imageUrl: "/services/15.jpg",
+  altText: "Landscape Lighting Services",
+},
 ];
 
 // Data for the "Recent Services" section
@@ -186,16 +203,12 @@ const ServicesPage: React.FC = () => {
 
           {/* Section title */}
           <h1 className="mb-4 sm:mb-5 md:mb-6 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[52px] font-bold text-text leading-tight">
-            Our Services
+            Professional Gardening Services in Nepal
           </h1>
 
           {/* Section description */}
           <p className="max-w-[280px] sm:max-w-[500px] md:max-w-[700px] lg:max-w-[858px] mb-4 sm:mb-6 md:mb-8 text-sm sm:text-base md:text-lg leading-relaxed text-[#7C7F7A] px-2">
-            At Gardensewa, we believe a beautiful garden is more than just
-            plants — it's a living space that brings peace, purity, and purpose
-            to your life. Our expert team delivers thoughtful, plant-based
-            garden services that are organic, eco-friendly, and tailored to your
-            space and needs.
+            At Garden Sewa, we believe a beautiful garden is more than just plants — it is a peaceful outdoor space that enhances your lifestyle and environment. We provide professional gardening services in Nepal, including garden maintenance, landscaping, lawn care, and plant care solutions designed to keep your outdoor spaces healthy and vibrant. Our expert team delivers eco-friendly and organic gardening services, tailored to your garden’s size, style, and specific needs, helping you create a greener, cleaner, and more relaxing living space.
           </p>
         </div>
       </div>

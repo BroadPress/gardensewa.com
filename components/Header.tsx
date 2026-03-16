@@ -85,7 +85,7 @@ export default function Header() {
           <div className="contact flex gap-1 text-xs sm:text-sm md:text-[14px] mb-2 sm:mb-0">
             <a
               className="hover:text-green-200 transition-colors duration-200"
-              href="tel:+977-9852025735"
+              href="tel:+9779852025735"
             >
               Helpline Number: +977-9852025735
             </a>
@@ -168,7 +168,7 @@ export default function Header() {
 
             <div className="flex items-center space-x-2 sm:space-x-3 md:space-x-4">
               {/* Desktop Book Service Button */}
-              <Link href="/book-a-service" className="hidden lg:block">
+              <Link href="/book" className="hidden lg:block">
                 <button className="buttonColorFill hover:shadow-lg text-white py-2 px-3 xl:px-4 rounded-md font-bold text-sm xl:text-base transition-all duration-200 hover:scale-105">
                   Book a Service
                 </button>
@@ -255,7 +255,7 @@ export default function Header() {
 
             {/* Mobile Book Service Button */}
             <div className="px-4 mt-4 sm:mt-6">
-              <Link href="/book-a-service" onClick={() => setMenuOpen(false)}>
+              <Link href="/book" onClick={() => setMenuOpen(false)}>
                 <button className="w-full bg-gradient-to-l from-[#009000] via-[#009800] to-[#00C400] hover:shadow-lg text-white py-3 rounded-lg font-semibold text-sm sm:text-base transition-all duration-200">
                   Book a Service
                 </button>

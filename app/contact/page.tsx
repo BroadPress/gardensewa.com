@@ -12,12 +12,12 @@ interface Expert {
 
 const experts: Expert[] = [
   {
-    name: "Niranjan Sharma",
+    name: "Thiranjan Sharma",
     role: "Project Manager",
-    imageUrl: "/image/navbar/contact/Niranjan-Sharma.png",
+    imageUrl: "/image/navbar/contact/Thiranjan-Sharma.png",
   },
   {
-    name: "Pracas Upreti",
+    name: "Aakash Thapa",
     role: "CTO",
     imageUrl: "/image/navbar/contact/Pracas-Upreti.png",
   },

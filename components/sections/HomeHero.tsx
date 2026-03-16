@@ -6,7 +6,7 @@ import React, { useEffect, useState } from "react";
 const slides = [
   {
     id: 1,
-    img: "/image/home/slider-image/Hero1.png",
+    img: "/image/home/slider/1.jpg",
     alt: "sliderimg1",
     title: "Gardening Services in Nepal ",
     subtitle:
@@ -17,20 +17,20 @@ const slides = [
   },
   {
     id: 2,
-    img: "/image/home/slider-image/Hero2.png",
+    img: "/image/home/slider/2.jpg",
     alt: "sliderimg2",
     title: "Gardening Services for Hotels and Resorts in Nepal",
     subtitle:
       "We help hotels and resorts maintain inviting green spaces with plant care, landscaping, and seasonal upkeep that enhance guest experiences.",
     button: "Read More",
     button2: "Book a Service",
-    button2link: "/book-a-service",
+    button2link: "/book",
   },
   {
     id: 3,
-    img: "/image/home/slider-image/Hero3.png",
+    img: "/image/home/slider/3.jpg",
     alt: "sliderimg3",
-    title: "Green Companions for Every Home",
+    title: "Best Gardening Services in Kathmandu",
     subtitle:
       "Discover a variety of plants indoor, outdoor, air purifying, and more, delivered with care",
     button: "Read More",

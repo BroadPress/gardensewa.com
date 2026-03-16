@@ -181,7 +181,7 @@ export default function ClientPage() {
             <p className="text-lg md:text-xl text-gray-200 leading-relaxed mb-8">
               Join our growing network of satisfied clients.
             </p>
-            <Link href="book-a-service">
+            <Link href="book">
               <button className="buttonColorFill text-white font-semibold px-6 py-2 md:px-8 md:py-3 rounded-4xl hover:bg-secondary transition">
                 Become a client
               </button>

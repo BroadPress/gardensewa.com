@@ -12,19 +12,19 @@ interface Expert {
 
 const experts: Expert[] = [
   {
-    name: "Thiranjan Sharma",
+    name: "Shambhu Thapa",
     role: "Project Manager",
-    imageUrl: "/image/navbar/contact/Thiranjan-Sharma.png",
+    imageUrl: "/contact/1.png",
   },
   {
-    name: "Aakash Thapa",
-    role: "CTO",
-    imageUrl: "/image/navbar/contact/Pracas-Upreti.png",
+    name: "Dinesh Poudel",
+    role: "Business Developer",
+    imageUrl: "/contact/2.png",
   },
   {
-    name: "Madan Tamang",
-    role: "Information Manager",
-    imageUrl: "/image/navbar/contact/Madan-Tamang.png",
+    name: "Mantesh Dubey",
+    role: "Information Officer",
+    imageUrl: "/contact/3.png",
   },
 ];
 

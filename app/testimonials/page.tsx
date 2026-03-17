@@ -11,58 +11,59 @@ interface Testimonial {
 // Dummy data for the testimonials
 const testimonials: Testimonial[] = [
   {
-    name: "Dinesh Pathak",
+    name: "Smarika Karki",
     quote:
-      "GardenSewa did an exceptional job revamping our outdoor dining space. The greenery and landscaping they added have created a fresh, natural vibe that our customers absolutely love.",
-    image: "/image/home/testimonials/t1.png",
+      "GardenSewa's garden maintenance service has been a lifesaver for our home. They keep our garden looking pristine year-round with regular upkeep, weeding, and plant health checks. Highly professional and reliable!",
+    image: "/testimonials/1.png",
   },
   {
-    name: "Rodrig Smith",
+    name: "Ramesh Singh",
     quote:
-      "GardenSewa did an exceptional job revamping our outdoor dining space. The greenery and landscaping they added have created a fresh, natural vibe that our customers absolutely love.",
-    image: "/image/home/testimonials/t2.png",
+      "The landscaping team at GardenSewa transformed our backyard into a paradise. Their creative design and expert execution created beautiful pathways, flower beds, and water features that perfectly match our vision.",
+    image: "/testimonials/2.png",
+    
   },
   {
-    name: "Edward Smith",
+    name: "Bikash Adhikari",
     quote:
-      "GardenSewa did an exceptional job revamping our outdoor dining space. The greenery and landscaping they added have created a fresh, natural vibe that our customers absolutely love.",
-    image: "/image/home/testimonials/t3.png",
+      "GardenSewa's plant care service is exceptional. They nursed our struggling plants back to health with proper fertilization, pest control, and expert advice. Our garden has never looked better!",
+    image: "/testimonials/3.png",
   },
   {
-    name: "Alex Junior",
+    name: "Sanjay Rai",
     quote:
-      "GardenSewa did an exceptional job revamping our outdoor dining space. The greenery and landscaping they added have created a fresh, natural vibe that our customers absolutely love.",
-    image: "/image/home/testimonials/t4.png",
+      "Their lawn care service is top-notch. GardenSewa maintains our lawn with precision mowing, fertilization, and weed control. The results are always impressive and our neighbors are envious!",
+    image: "/testimonials/4.png",
   },
   {
-    name: "David Bowie",
+    name: "Prakash Thapa",
     quote:
-      "GardenSewa did an exceptional job revamping our outdoor dining space. The greenery and landscaping they added have created a fresh, natural vibe that our customers absolutely love.",
-    image: "/image/home/testimonials/t5.png",
+      "GardenSewa's tree trimming service is professional and thorough. They safely pruned our overgrown trees, improving both safety and aesthetics. The team was knowledgeable and careful throughout the process.",
+    image: "/testimonials/5.png",
   },
   {
-    name: "James Murphy",
+    name: "Dipesh Thapa",
     quote:
-      "GardenSewa did an exceptional job revamping our outdoor dining space. The greenery and landscaping they added have created a fresh, natural vibe that our customers absolutely love.",
-    image: "/image/home/testimonials/t6.png",
+      "The indoor plant service from GardenSewa has brought life to our office space. They selected perfect plants for our lighting conditions and provide ongoing care. Our workspace feels so much more vibrant!",
+    image: "/testimonials/6.png",
   },
   {
-    name: "Aman Pathak",
+    name: "Amit Poudel",
     quote:
-      "GardenSewa did an exceptional job revamping our outdoor dining space. The greenery and landscaping they added have created a fresh, natural vibe that our customers absolutely love.",
-    image: "/image/home/testimonials/t7.png",
+      "GardenSewa's outdoor plant installation and care service is outstanding. They helped us choose the right plants for our climate and soil, and their maintenance keeps everything thriving beautifully.",
+    image: "/testimonials/7.png",
   },
   {
-    name: "Adarsh Singh",
+    name: "Niraj Bhandari",
     quote:
-      "GardenSewa did an exceptional job revamping our outdoor dining space. The greenery and landscaping they added have created a fresh, natural vibe that our customers absolutely love.",
-    image: "/image/home/testimonials/t8.png",
+      "Their garden cleanup service is incredibly thorough. GardenSewa cleared out years of accumulated debris, dead plants, and overgrown areas. Our garden is now clean, organized, and ready for new growth!",
+    image: "/testimonials/8.png",
   },
   {
-    name: "Raunak Gupta",
+    name: "Kiran Basnet",
     quote:
-      "GardenSewa did an exceptional job revamping our outdoor dining space. The greenery and landscaping they added have created a fresh, natural vibe that our customers absolutely love.",
-    image: "/image/home/testimonials/t9.png",
+      "For our resort, GardenSewa's comprehensive garden services have created stunning landscapes that wow our guests. From maintenance to special event setups, their work enhances our property's appeal tremendously.",
+    image: "/testimonials/9.png",
   },
 ];
 
@@ -103,14 +104,7 @@ const PartnersTestimonials: React.FC = () => {
       <div className="px-4 py-12 sm:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
-          <div className="text-center mb-12 sm:mb-16 lg:mb-20">
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-gray-800 mb-2 sm:mb-4">
-              What Our Partners Say About
-            </h2>
-            <h3 className="text-xl sm:text-2xl lg:text-3xl xl:text-4xl font-bold text-primary">
-              GardenSewa
-            </h3>
-          </div>
+          
 
           {/* Testimonials Grid */}
           <div className="grid gap-6 sm:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
@@ -142,7 +136,7 @@ const PartnersTestimonials: React.FC = () => {
                       <img
                         src={testimonial.image}
                         alt={testimonial.name}
-                        className="w-24 h-24 rounded-full object-cover shadow-lg border-4 border-white group-hover:border-green-100 transition-all duration-300 group-hover:scale-110"
+                        className="w-48 h-48 rounded-full object-cover shadow-lg border-4 border-white group-hover:border-green-100 transition-all duration-300 group-hover:scale-110"
                       />
                       <div className="absolute inset-0 rounded-full bg-green-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
                     </div>

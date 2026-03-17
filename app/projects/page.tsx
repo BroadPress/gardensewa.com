@@ -7,62 +7,62 @@ import Head from "next/head";
 
 const clients = [
   {
-    image: "/image/project/project1.jpg",
-    name: "Jorpati Project",
+    image: "/projects/1.jpg",
+    name: "Solatee Westend",
     text: "Built a Zen-style garden at a wellness retreat, incorporating smooth river stones, calming water features, and minimalistic greenery to create a peaceful space for relaxation and meditation.",
-  },
+      },
   {
-    image: "/image/project/project2.jpg",
+    image: "/projects/2.jpg",
     name: "Baneshwor Project",
     text: "Designed and planted a vibrant flower garden at a corporate office, combining seasonal blooms, creative color patterns, and low-maintenance greenery to provide a visually stunning and professional outdoor space.",
   },
   {
-    image: "/image/project/project3.jpg",
+    image: "/projects/3.jpg",
     name: "Jawalakhel Project",
     text: "Maintained a lush green lawn at a residential villa, ensuring every blade of grass stayed healthy through regular mowing, precise watering schedules, and nutrient-rich fertilizing to keep it vibrant all year.",
   },
   {
-    image: "/image/project/project4.jpg",
+    image: "/projects/4.jpg",
     name: "Sano Thimi Project",
     text: "Pruned and shaped decorative hedges at a luxury hotel, creating artistic patterns, removing overgrowth, and enhancing curb appeal to maintain a polished and inviting outdoor environment for guests.",
   },
   {
-    image: "/image/project/project5.jpg",
+    image: "/projects/5.jpg",
     name: " Anamnagar Project",
     text: "Installed an automatic irrigation system for a farmhouse, using water-saving technology, adjustable timers, and strategic placement to optimize coverage while maintaining plant health in all weather conditions.",
   },
   {
-    image: "/image/project/project6.jpg",
+    image: "/projects/6.jpg",
     name: "Budhanilkantha Project",
     text: "Restored a community park’s flower beds, removing old and faded plants, introducing fresh seasonal flowers, and enriching the soil to promote long-lasting, healthy blooms throughout the year.",
   },
   {
-    image: "/image/project/project7.jpg",
+    image: "/projects/7.jpg",
     name: "Gathaghar Project",
     text: "Revitalized a backyard vegetable patch, enriching the soil with organic compost, planting fresh seedlings, and installing proper irrigation to ensure a consistent and healthy supply of homegrown produce.",
   },
   {
-    image: "/image/project/project8.jpg",
+    image: "/projects/8.jpg",
     name: "Dhulikhel Project",
     text: "Renovated a school playground with safe, eco-friendly greenery, replacing worn-out turf, planting soft grass varieties, and adding shaded plant areas to create a healthy and child-friendly outdoor learning space.",
   },
   {
-    image: "/image/project/project9.jpg",
+    image: "/projects/9.jpg",
     name: "Naikap Project",
     text: "Created a rooftop herb garden for an apartment, using vertical planters, organic soil blends, and smart sun positioning to maximize growth while keeping fresh herbs within easy reach for daily use.",
   },
   {
-    image: "/image/project/project10.jpg",
+    image: "/projects/10.jpg",
     name: "Kamalpokhari Project",
     text: "Landscaped a beachfront garden with tropical plants, carefully selecting salt-tolerant species, adding decorative pathways, and incorporating shaded seating areas to create a relaxing coastal retreat.",
   },
   {
-    image: "/image/project/project11.jpg",
+    image: "/projects/11.jpg",
     name: "Banepa Project",
     text: "Planted palm trees along a villa driveway, arranging them for symmetrical balance, adding decorative ground cover, and integrating lighting to highlight their beauty both day and night.",
   },
   {
-    image: "/image/project/project12.jpg",
+    image: "/projects/12.jpg",
     name: "Naxal Project",
     text: "Added seasonal blooms to a shopping mall entrance, arranging vibrant floral displays, matching colors to brand themes, and ensuring a fresh, welcoming look for shoppers and visitors alike.",
   },

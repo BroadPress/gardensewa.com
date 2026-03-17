@@ -169,7 +169,7 @@ export default function Header() {
             <div className="flex items-center space-x-2 sm:space-x-3 md:space-x-4">
               {/* Desktop Book Service Button */}
               <Link href="/book" className="hidden lg:block">
-                <button className="buttonColorFill hover:shadow-lg text-white py-2 px-3 xl:px-4 rounded-md font-bold text-sm xl:text-base transition-all duration-200 hover:scale-105">
+                <button className="cursor-pointer buttonColorFill hover:shadow-lg text-white py-2 px-3 xl:px-4 rounded-md font-bold text-sm xl:text-base transition-all duration-200 hover:scale-105">
                   Book a Service
                 </button>
               </Link>

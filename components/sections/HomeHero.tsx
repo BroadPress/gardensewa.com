@@ -6,36 +6,39 @@ import React, { useEffect, useState } from "react";
 const slides = [
   {
     id: 1,
-    img: "/image/home/slider/1.jpg",
+    img: "/home/slider/1.jpg",
     alt: "sliderimg1",
     title: "Gardening Services in Nepal ",
     subtitle:
       "Our team offers personalized gardening services from one time cleanups to regular maintenance, tailored to keep your garden fresh, vibrant, and well cared for.",
     button: "Read More",
-    button2: "Explore Plants",
-    button2link: "/plants",
+    buttonlink: "/about",
+    button2: "Book a Service",
+    button2link: "/book",
   },
   {
     id: 2,
-    img: "/image/home/slider/2.jpg",
+    img: "/home/slider/2.jpg",
     alt: "sliderimg2",
     title: "Gardening Services for Hotels and Resorts in Nepal",
     subtitle:
-      "We help hotels and resorts maintain inviting green spaces with plant care, landscaping, and seasonal upkeep that enhance guest experiences.",
+      "We provide services for hotels and resorts to maintain inviting green spaces with plant care, landscaping, and seasonal upkeep that enhance guest experiences on yearly basis.",
     button: "Read More",
+    buttonlink: "/about",
     button2: "Book a Service",
     button2link: "/book",
   },
   {
     id: 3,
-    img: "/image/home/slider/3.jpg",
+    img: "/home/slider/3.jpg",
     alt: "sliderimg3",
     title: "Best Gardening Services in Kathmandu",
     subtitle:
-      "Discover a variety of plants indoor, outdoor, air purifying, and more, delivered with care",
+      "Discover a wide range of plants and garden solutions delivered with care. Our experts design, plant, and maintain your garden so you can enjoy a fresh and peaceful outdoor space every day.",
     button: "Read More",
-    button2: "Explore Plants",
-    button2link: "/plants",
+    buttonlink: "/about",
+    button2: "Book a Service",
+    button2link: "/book",
   },
 ];
 
@@ -98,16 +101,21 @@ const HomeHero: React.FC = () => {
 
                 {/* Responsive button layout */}
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                  <button className="buttonColorFill font-semibold px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 lg:px-8 lg:py-3.5 rounded-lg transition text-white text-sm sm:text-base w-full sm:w-auto">
-                    {slide.button}
-                  </button>
 
-                  <Link href={slide.button2link} className="w-full sm:w-auto">
-                    <button className="font-semibold border border-white text-white px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 lg:px-8 lg:py-3.5 rounded-lg transition text-sm sm:text-base w-full hover:bg-primary hover:border-primary duration-300">
-                      {slide.button2}
-                    </button>
-                  </Link>
-                </div>
+                <Link
+                href={slide.buttonlink}
+                className="buttonColorFill cursor-pointer font-semibold px-6 py-3 rounded-lg text-white w-full sm:w-auto text-center"
+              >
+                {slide.button}
+              </Link>
+
+                <Link href={slide.button2link} className="w-full sm:w-auto">
+                  <button className="cursor-pointer font-semibold border border-white text-white px-4 py-2 sm:px-5 sm:py-2.5 md:px-6 md:py-3 lg:px-8 lg:py-3.5 rounded-lg transition text-sm sm:text-base w-full hover:bg-primary hover:border-primary duration-300">
+                    {slide.button2}
+                  </button>
+                </Link>
+
+              </div>
               </div>
             </div>
           </div>

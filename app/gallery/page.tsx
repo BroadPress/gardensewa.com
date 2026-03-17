@@ -15,65 +15,65 @@ interface GalleryItem {
 const topServices: GalleryItem[] = [
   {
     id: 1,
-    imageUrl: "/image/gallery/gallery1.jpg",
+    imageUrl: "/gallery/1.jpg",
     altText: "Gardening Service",
   },
   {
     id: 2,
-    imageUrl: "/image/gallery/gallery2.jpg",
+    imageUrl: "/gallery/2.jpg",
     altText: "Watering Plants",
   },
   {
     id: 3,
-    imageUrl: "/image/gallery/gallery3.jpg",
+    imageUrl: "/gallery/3.jpg",
     altText: "Garden Maintenance",
   },
   {
     id: 4,
-    imageUrl: "/image/gallery/gallery4.jpg",
+    imageUrl: "/gallery/4.jpg",
     altText: "Planting Seedlings",
   },
   {
     id: 5,
-    imageUrl: "/image/gallery/gallery5.jpg",
+    imageUrl: "/gallery/5.jpg",
     altText: "Caring for Young Plants",
   },
   {
     id: 6,
-    imageUrl: "/image/gallery/gallery6.jpg",
+    imageUrl: "/gallery/6.jpg",
     altText: "Greenhouse Flowers",
   },
 ];
 
 const indoorOutdoorPlants: GalleryItem[] = [
   {
-    id: 1,
-    imageUrl: "/image/gallery/gallery7.jpg",
+    id: 7,
+    imageUrl: "/gallery/7.jpg",
     altText: "Cactus in a pot",
   },
   {
-    id: 2,
-    imageUrl: "/image/gallery/gallery8.jpg",
+    id: 8,
+    imageUrl: "/gallery/8.jpg",
     altText: "Indoor plants in a living room",
   },
   {
-    id: 3,
-    imageUrl: "/image/gallery/gallery9.jpg",
+    id: 9,
+    imageUrl: "/gallery/9.jpg",
     altText: "Spring flowers in pots",
   },
   {
-    id: 4,
-    imageUrl: "/image/gallery/gallery10.jpg",
+    id: 10,
+    imageUrl: "/gallery/10.jpg",
     altText: "Herbs on a table",
   },
   {
-    id: 5,
-    imageUrl: "/image/gallery/gallery11.jpg",
+    id: 11,
+    imageUrl: "/gallery/11.jpg",
     altText: "Potted succulent on the floor",
   },
   {
-    id: 6,
-    imageUrl: "/image/gallery/gallery12.jpg",
+    id: 12,
+    imageUrl: "/gallery/12.jpg",
     altText: "Field of cacti",
   },
 ];
@@ -81,529 +81,470 @@ const indoorOutdoorPlants: GalleryItem[] = [
 const rarePlants: GalleryItem[] = [
   {
     id: 1,
-    imageUrl: "/image/gallery/gallery13.jpg",
+    imageUrl: "/gallery/13.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 2,
-    imageUrl: "/image/gallery/gallery14.jpg",
+    imageUrl: "/gallery/14.jpg",
     altText: "Indoor plants in a living room",
   },
   {
     id: 3,
-    imageUrl: "/image/gallery/gallery15.jpg",
+    imageUrl: "/gallery/15.jpg",
     altText: "Spring flowers in pots",
   },
   {
     id: 4,
-    imageUrl: "/image/gallery/gallery16.jpg",
+    imageUrl: "/gallery/16.jpg",
     altText: "Herbs on a table",
   },
   {
     id: 5,
-    imageUrl: "/image/gallery/gallery17.jpg",
+    imageUrl: "/gallery/17.jpg",
     altText: "Potted succulent on the floor",
   },
   {
     id: 6,
-    imageUrl: "/image/gallery/gallery18.jpg",
+    imageUrl: "/gallery/18.jpg",
     altText: "Field of cacti",
   },
 ];
 
 const morePlants: GalleryItem[] = [
   {
-    id: 1,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa1.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 2,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa2.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 3,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa3.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 4,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa4.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 5,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa5.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 6,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa6.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 7,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa7.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 8,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa8.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 9,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa9.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 10,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa10.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 11,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa11.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 12,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa12.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 13,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa13.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 14,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa14.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 15,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa15.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 16,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa16.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 17,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa17.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
-    id: 18,
-    imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa18.jpg",
-    altText: "Cactus in a pot",
-  },
-  {
     id: 19,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa19.jpg",
+      "/gallery/19.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 20,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa20.jpg",
+      "/gallery/20.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 21,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa21.jpg",
+      "/gallery/21.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 22,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa22.jpg",
+      "/gallery/22.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 23,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa23.jpg",
+      "/gallery/23.jpg",
+    altText: "Cactus in a pot",
+  },
+  {
+    id: 24,
+    imageUrl:
+      "/gallery/24.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 25,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa25.jpg",
+      "/gallery/25.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 26,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa26.jpg",
+      "/gallery/26.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 27,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa27.jpg",
+      "/gallery/27.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 28,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa28.jpg",
+      "/gallery/28.jpg",
+    altText: "Cactus in a pot",
+  },
+  {
+    id: 29,
+    imageUrl:
+      "/gallery/29.jpg",
+    altText: "Cactus in a pot",
+  },
+  {
+    id: 30,
+    imageUrl:
+      "/gallery/30.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 31,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa31.jpg",
+      "/gallery/31.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 32,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa32.jpg",
+      "/gallery/32.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 33,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa33.jpg",
+      "/gallery/33.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 34,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa34.jpg",
+      "/gallery/34.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 35,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa35.jpg",
+      "/gallery/35.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 36,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa36.jpg",
+      "/gallery/36.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 37,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa37.jpg",
+      "/gallery/37.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 38,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa38.jpg",
+      "/gallery/38.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 39,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa39.jpg",
+      "/gallery/39.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 40,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa40.jpg",
+      "/gallery/40.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 41,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa41.jpg",
+      "/gallery/41.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 42,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa42.jpg",
+      "/gallery/42.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 43,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa43.jpg",
+      "/gallery/43.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 44,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa44.jpg",
+      "/gallery/44.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 45,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa45.jpg",
+      "/gallery/45.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 46,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa46.jpg",
+      "/gallery/46.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 47,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa47.jpg",
+      "/gallery/47.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 48,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa48.jpg",
+      "/gallery/48.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 49,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa49.jpg",
+      "/gallery/49.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 50,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa50.jpg",
+      "/gallery/50.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 51,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa51.jpg",
+      "/gallery/51.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 52,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa52.jpg",
+      "/gallery/52.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 53,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa53.jpg",
+      "/gallery/53.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 54,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa54.jpg",
+      "/gallery/54.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 55,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa55.jpg",
+      "/gallery/55.jpg",
+    altText: "Cactus in a pot",
+  },
+  {
+    id: 56,
+    imageUrl:
+      "/gallery/56.jpg",
+    altText: "Cactus in a pot",
+  },
+  {
+    id: 57,
+    imageUrl:
+      "/gallery/57.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 58,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa58.jpg",
+      "/gallery/58.jpg",
+    altText: "Cactus in a pot",
+  },
+  {
+    id: 59,
+    imageUrl:
+      "/gallery/59.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 60,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa60.jpg",
+      "/gallery/60.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 61,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa61.jpg",
+      "/gallery/61.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 62,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa62.jpg",
+      "/gallery/62.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 63,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa63.jpg",
+      "/gallery/63.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 64,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa64.jpg",
+      "/gallery/64.jpg",
+    altText: "Cactus in a pot",
+  },
+  {
+    id: 65,
+    imageUrl:
+      "/gallery/65.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 66,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa66.jpg",
+      "/gallery/66.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 67,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa67.jpg",
+      "/gallery/67.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 68,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa68.jpg",
+      "/gallery/68.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 69,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa69.jpg",
+      "/gallery/69.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 70,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa70.jpg",
+      "/gallery/70.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 71,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa71.jpg",
+      "/gallery/71.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 72,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa72.jpg",
+      "/gallery/72.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 73,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa73.jpg",
+      "/gallery/73.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 74,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa74.jpg",
+      "/gallery/74.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 75,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa75.jpg",
+      "/gallery/75.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 76,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa76.jpg",
+      "/gallery/76.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 77,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa77.jpg",
+      "/gallery/77.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 78,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa78.jpg",
+      "/gallery/78.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 79,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa79.jpg",
+      "/gallery/79.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 80,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa80.jpg",
+      "/gallery/80.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 81,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa81.jpg",
+      "/gallery/81.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 82,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa82.jpg",
+      "/gallery/82.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 83,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa83.jpg",
+      "/gallery/83.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 84,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa84.jpg",
+      "/gallery/84.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 85,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa85.jpg",
+      "/gallery/85.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 86,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa86.jpg",
+      "/gallery/86.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 87,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa87.jpg",
+      "/gallery/87.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 88,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa88.jpg",
+      "/gallery/88.jpg",
     altText: "Cactus in a pot",
   },
   {
     id: 89,
     imageUrl:
-      "/image/gallery/gardensewa-gallery/gardensewa-gallery/gardensewa89.jpg",
+      "/gallery/89.jpg",
     altText: "Cactus in a pot",
   },
+  {
+    id: 90,
+    imageUrl:
+      "/gallery/90.jpg",
+    altText: "Cactus in a pot",
+  },
+  
 ];
 
 // Reusable Gallery Grid component
@@ -703,7 +644,7 @@ const GalleryPage: React.FC = () => {
       >
         {/* Background image with a dark overlay */}
         <img
-          src="/image/gallery/galleryBg.jpg"
+          src="/gallery/1.jpg"
           alt="A large green plant"
           height={350}
           width={400}
@@ -715,7 +656,7 @@ const GalleryPage: React.FC = () => {
         <div className="relative z-10 max-w-4xl text-center px-4">
           {/* Section title */}
           <h1 className="text-5xl md:text-4xl font-bold mb-4">
-            You Can also visit our FAQ page
+            Visit our FAQ page
           </h1>
 
           {/* Section description */}

@@ -9,11 +9,11 @@ const FlowersBlog = () => {
     {
       id: 1,
       title: "How to Detox Your Life Naturally with Everyday Habits",
-      author: "Ira Adhikari",
-      date: "08/08/2025",
+      author: "Nisha Karn",
+      date: "08/03/2025",
       views: "2.3K",
       readTime: "9 min",
-      image: "/image/blog/1.png",
+      image: "/blog/1/1.jpg",
       description:
         "Pollutants and food choices can be bad. Fresh foods made from fresh ingredients, will...",
       link: "Read More",
@@ -21,11 +21,11 @@ const FlowersBlog = () => {
     {
       id: 2,
       title: "Happiness is Homemade — and Homegrown",
-      author: "Sanjana Yadav",
-      date: "08/08/2025",
+      author: "Rohan Gaur",
+      date: "08/06/2025",
       views: "2.2K",
       readTime: "9 min",
-      image: "/image/blog/2.png",
+      image: "/blog/2/1.jpg",
       description:
         "True happiness often lies in simple joys — like seeing a seed sprout, harvesting your own vegetables.",
       link: "Read More",
@@ -33,11 +33,11 @@ const FlowersBlog = () => {
     {
       id: 3,
       title: "New Mindfulness and Gardening Go Hand in Hand",
-      author: "Rohan Upreti",
-      date: "08/08/2025",
+      author: "Sunita Karki",
+      date: "02/11/2025",
       views: "1.9K",
       readTime: "9 min",
-      image: "/image/blog/3.png",
+      image: "/blog/3/1.jpg",
       description:
         "To start local people can do many practices that it helps in their daily lives that they...",
       link: "Read More",
@@ -58,7 +58,7 @@ const FlowersBlog = () => {
         className={`relative w-full max-w-6xl h-[501px] overflow-hidden rounded-3xl flex items-end p-5 justify-center text-white m-20`}
       >
         <img
-          src="/image/blog/heroimg.png"
+          src="/blog/4/1.jpg"
           alt="A large green plant"
           height={400}
           width={400}
@@ -75,15 +75,15 @@ const FlowersBlog = () => {
             {/* Author avatar */}
             <div className="w-10 h-10 rounded-full overflow-hidden">
               <img
-                src="image/userimage/1.png"
-                alt="Ina Adhikari"
+                src="/author/3.png"
+                alt="Sunita Karki"
                 className="w-full h-full object-cover"
               />
             </div>
 
             {/* Author details */}
             <div className="flex items-center space-x-4 text-sm text-white">
-              <span className="font-medium">Ina Adhikari</span>
+              <span className="font-medium">Sunita Karki</span>
               <span className="opacity-80">03 Aug 2025</span>
               <span className="opacity-80">5 min</span>
             </div>
@@ -132,7 +132,7 @@ const FlowersBlog = () => {
               <div className="float-right ml-6 mb-4 w-48">
                 <img
                   className="h-[307px] w-[509px]"
-                  src={"/image/blog/blog.png"}
+                  src={"/blog/banner/1.jpg"}
                 />
               </div>
 

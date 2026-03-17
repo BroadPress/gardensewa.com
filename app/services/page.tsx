@@ -136,6 +136,54 @@ const topServices: Service[] = [
   imageUrl: "/services/15.jpg",
   altText: "Landscape Lighting Services",
 },
+{
+  id: 16,
+  title: "Turfing Service",
+  description:
+    "Professional turf installation and maintenance including laying new grass, repairing damaged turf, and ensuring a lush, healthy lawn for residential and commercial spaces.",
+  imageUrl: "/services/16.jpg",
+  altText: "Turfing Service"
+},
+{
+  id: 17,
+  title: "Temporary Gardening",
+  description:
+    "Short-term gardening solutions for events, seasonal displays, or temporary landscaping projects, including plant setup, maintenance, and removal services.",
+  imageUrl: "/services/17.jpg",
+  altText: "Temporary Gardening Services"
+},
+{
+  id: 18,
+  title: "Flower Maintenance",
+  description:
+    "Comprehensive care for flowering plants including planting, pruning, fertilizing, pest management, and seasonal flower arrangement services to keep your garden vibrant.",
+  imageUrl: "/services/18.jpg",
+  altText: "Flower Maintenance Services"
+},
+{
+  id: 19,
+  title: "Rooftop Gardening",
+  description:
+    "Design, installation, and maintenance of rooftop gardens including container planting, irrigation setup, and soil management to transform rooftops into green spaces.",
+  imageUrl: "/services/19.jpg",
+  altText: "Rooftop Gardening Services"
+},
+{
+  id: 20,
+  title: "Yearly Garden Maintenance",
+  description:
+    "Comprehensive year-round garden maintenance services including seasonal care, pruning, fertilization, pest control, and regular upkeep to keep your garden flourishing.",
+  imageUrl: "/services/20.jpg",
+  altText: "Yearly Garden Maintenance Services"
+},
+{
+  id: 21,
+  title: "Artificial Gardening",
+  description:
+    "Installation and maintenance of artificial plants, turf, and landscaping elements for low-maintenance, durable, and aesthetically pleasing green spaces.",
+  imageUrl: "/services/21.jpg",
+  altText: "Artificial Gardening Services"
+}
 ];
 
 // Data for the "Recent Services" section
@@ -163,9 +211,11 @@ const ServiceCard: React.FC<{ service: Service }> = ({ service }) => (
         {service.description}
       </p>
 
-      <button className="buttonColorFill text-white py-2 sm:py-2.5 md:py-3 px-4 sm:px-5 md:px-6 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 text-sm sm:text-base">
-        Explore More
+      <a href="https://d.sriyog.com/gSewa" target="_blank" rel="noopener noreferrer">
+      <button className="buttonColorFill text-white py-2 sm:py-2.5 md:py-3 px-4 sm:px-5 md:px-6 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 text-sm sm:text-base cursor-pointer">
+        Book a Service
       </button>
+    </a>
     </div>
   </div>
 );

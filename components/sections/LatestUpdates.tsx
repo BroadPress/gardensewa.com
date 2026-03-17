@@ -21,10 +21,10 @@ interface Article {
 const articles: Article[] = [
   {
     id: "1",
-    image: "/image/navbar/blog/blog1.jpg",
+    image: "/blog/1/1.jpg",
     title: "How Flower Brings Happiness",
     author: "Nisha Karn",
-    img: "/image/blog/author/1.png",
+    img: "/author/1.png",
     date: "16 March 2026",
     readTime: "5 min",
     Link: "/flowersblog",
@@ -34,10 +34,10 @@ const articles: Article[] = [
   {
     id: "2",
     // Placeholder image URL.
-    image: "/image/navbar/blog/blog2.jpg",
+    image: "/blog/2/1.jpg",
     title: "How to Start Gardening Business",
     author: "Rohan Gaur",
-    img: "/image/blog/author/2.png",
+    img: "/author/2.png",
     date: "13 March 2026",
     readTime: "5 min",
     Link: "/flowersblog",
@@ -45,10 +45,10 @@ const articles: Article[] = [
   {
     id: "3",
     // Placeholder image URL.
-    image: "/image/navbar/blog/blog3.jpg",
+    image: "/blog/3/1.jpg",
     title: " Impact of Flower in Mental Health",
     author: "Sunita Karki",
-    img: "/image/blog/author/3.png",
+    img: "author/3.png",
     date: "6 March 2026",
     readTime: "5 min",
     Link: "/flowersblog",

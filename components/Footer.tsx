@@ -6,14 +6,14 @@ import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 // Constants
 const QUICK_LINKS = [
-  { href: "/plants", label: "Plants" },
+  { href: "https://biratinfo.com/author/gardensewa", label: "Blog" },
   { href: "/testimonials", label: "Testimonials" },
-  { href: "/partner", label: "Our Partner" },
-  { href: "/become-client", label: "Become a Client" },
+  { href: "/partners", label: "Our Partners" },
+  { href: "/partnership", label: "Become a Partner" },
 ];
 
 const HELP_LINKS = [
-  { href: "/conditions", label: "Terms and Conditions" },
+  { href: "/tos", label: "Terms and Conditions" },
   { href: "/faq", label: "FAQs" },
   { href: "/contact", label: "Contact" },
   { href: "/privacy", label: "Privacy Policy" },

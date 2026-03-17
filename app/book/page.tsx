@@ -5,6 +5,7 @@ import Head from "next/head";
 import React, { useState } from "react";
 
 interface FormData {
+  fullName: string;
   email: string;
   phone: string;
   scheduledDate: string;
@@ -21,6 +22,7 @@ interface FormData {
 
 export default function App() {
   const [formData, setFormData] = useState<FormData>({
+    fullName: "",
     email: "",
     phone: "",
     scheduledDate: "",
@@ -101,8 +103,8 @@ export default function App() {
             </span>
           </div>
 
-          <h1 className="mb-4 text-3xl md:text-5xl font-bold text-primary md:text-[52px]">
-            Book a Gardening Service
+          <h1 className="mb-4 text-3xl md:text-5xl font-bold text-primary md:text-[45px]">
+            Best Gardening Service in Nepal
           </h1>
         </div>
       </div>
@@ -115,7 +117,21 @@ export default function App() {
               <h2 className={sectionTitleStyle}>Contact Information</h2>
               <div className="space-y-4">
                 <div>
-                  <label htmlFor="email" className={labelStyle}>
+                  <div>
+                  <label htmlFor="fullName" className={labelStyle}>
+                    Full Name <RequiredMark />
+                  </label>
+                  <input
+                    type="text"
+                    id="fullName"
+                    name="fullName"
+                    value={formData.fullName}
+                    onChange={handleChange}
+                    className={inputStyle}
+                  
+                    required
+                  />
+                </div><label htmlFor="email" className={labelStyle}>
                     Email Address <RequiredMark />
                   </label>
                   <input
@@ -243,7 +259,7 @@ export default function App() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <div>
                   <label htmlFor="price" className={labelStyle}>
-                    Price <RequiredMark />
+                    Budget <RequiredMark />
                   </label>
                   <select
                     id="price"
@@ -253,10 +269,13 @@ export default function App() {
                     className={inputStyle1}
                     required
                   >
-                    <option value="">Select Price</option>
-                    <option value="500">500</option>
-                    <option value="1000">1000</option>
-                    <option value="2000-5000">2000-5000</option>
+                    <option value="Below NPR 1 Lakh">Below NPR 1 Lakh</option>
+                    <option value="Above NPR 1 Lakh">Above NPR 1 Lakh</option>
+                    <option value="Below NPR 5 Lakh">Below NPR 5 Lakh</option>
+                    <option value="Above NPR 5 Lakh">Above NPR 5 Lakh</option>
+                    <option value="Below NPR 10 Lakh">Below NPR 10 Lakh</option>
+                    <option value="Above NPR 10 Lakh">Above NPR 10 Lakh</option>
+                    <option value="Custom Budget">Custom Budget</option>
                   </select>
                 </div>
                 <div>
@@ -275,7 +294,7 @@ export default function App() {
               </div>
               <div>
                 <label htmlFor="serviceType" className={labelStyle}>
-                  Service Type <RequiredMark />
+                  Select Service Type <RequiredMark />
                 </label>
                 <select
                   id="serviceType"
@@ -285,14 +304,30 @@ export default function App() {
                   className={inputStyle1}
                   required
                 >
-                  <option value="">Select Service Type</option>
-                  <option value="Gardening Service">Gardening Service</option>
+                  
                   <option value="Lawn Care">Lawn Care</option>
-                  <option value="Seasonal Service">Seasonal Service</option>
-                  <option value="Turfing Service">Turfing Service</option>
-                  <option value="Landscaping Services">
-                    Landscaping Services
-                  </option>
+                  <option value="Planting and Transplanting">Planting and Transplanting</option>
+                  <option value="Garden Maintenance">Garden Maintenance</option>
+                  <option value="Soil Improvement">Soil Improvement</option>
+                  <option value="Irrigation Services">Irrigation Services</option>
+                  <option value="Pest and Disease Control">Pest and Disease Control</option>
+                  <option value="Hardscaping">Hardscaping</option>
+                  <option value="Seasonal Services">Seasonal Services</option>
+                  <option value="Landscape Design">Landscape Design</option>
+                  <option value="Tree Sales">Tree Sales</option>
+                  <option value="Plant Propagation">Plant Propagation</option>
+                  <option value="Soil and Fertilizers">Soil and Fertilizers</option>
+                  <option value="Consultation Services">Consultation Services</option>
+                  <option value="Tree Pruning & Removal">Tree Pruning & Removal</option>
+                  <option value="Landscaping Services">Landscaping Services</option>
+
+                  <option value="Turfing Service">Turfing Service</option>                                  
+                  <option value="Temporary Gardening">Temporary Gardening</option>
+                  <option value="Flower Maintenance">Flower Maintenance</option>
+                  <option value="Rooftop Gardening">Rooftop Gardening</option>
+                  <option value="Yearly Garden Maintenance">Yearly Garden Maintenance</option>
+                  <option value="Artificial Gardening">Artificial Gardening</option>
+                  
                 </select>
               </div>
             </section>

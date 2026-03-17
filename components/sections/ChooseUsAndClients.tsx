@@ -51,30 +51,27 @@ const ChooseUs: React.FC = () => {
 
   const clients = [
     {
-      image: "/image/home/client/soaltee.png",
+      image: "home/client/1.png",
       name: "Bajeko Sekuwa",
-      text: "GardenSewa transformed our exterior into a vibrant, inviting space. Their regular maintenance and seasonal updates keep our hotel frontage always looking fresh and lush.",
-      link: "https://www.bajekosekuwa.com/",
-    },
-    {
-      image: "/image/home/client/british.png",
-      name: "British Embassy Kathmandu",
-      text: "We were impressed by GardenSewa's professionalism and discretion during the embassy’s landscaping project. Their team delivered a refined and elegant garden space that reflects our institutional values.",
+      text: "",
 
-      link: "https://www.gov.uk/world/organisations/british-embassy-kathmandu",
     },
     {
-      image: "/image/home/client/bajekosekuwa.png",
+      image: "home/client/2.png",
+
+
+    },
+    {
+      image: "home/client/3.png",
       name: "Aloft",
-      text: "GardenSewa did an exceptional job revamping our outdoor dining space. The greenery and landscaping they added have created a fresh, natural vibe that our customers absolutely love.",
-      link: "https://www.marriott.com/en-us/hotels/ktmal-aloft-kathmandu-thamel/overview/?nst=paid&cid=PAI_GLB0004YFY_GLE000BHOR_GLF000OCGE&nst=paid&gclsrc=aw.ds&gad_source=1&gad_campaignid=22178666619&gbraid=0AAAAADilnidqVZJVxY377ZINfb9DlsduA&gclid=CjwKCAjw49vEBhAVEiwADnMbbB2ExULZAhvCxIRIOMKWNlEMTC0Sg2F8FSSBwc4FAzV_04N6yDk9qxoCpUIQAvD_BwE",
+
+
     },
     {
-      image: "/image/home/client/aloft.png",
-      name: "Yak & Yeti",
-      text: "GardenSewa’s team turned our hotel courtyard into a lively urban oasis. The vertical gardens and curated plant selections blend beautifully with our brand’s modern aesthetic.",
+      image: "home/client/4.png",
+      
 
-      link: "https://www.yakandyeti.com/",
+      
     },
   ];
 
@@ -116,7 +113,7 @@ const ChooseUs: React.FC = () => {
             return (
               <div
                 key={index}
-                className="bg-white border-2 border-border h-[427px] w-[290px] rounded-3xl p-4 sm:p-6 flex flex-col justify-between items-start text-left relative overflow-hidden cursor-pointer"
+                className="bg-white border-2 border-border h-[327px] w-[290px] rounded-3xl p-4 sm:p-6 flex flex-col justify-between items-start text-left relative overflow-hidden cursor-pointer"
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
               >
@@ -136,12 +133,7 @@ const ChooseUs: React.FC = () => {
                   <span className="border-t-2 border-t-[#C7E9E7] w-full p-2"></span>
 
                   {/* Button - always in same position */}
-                  <a
-                    href={client.link}
-                    className="w-full border  text-text font-semibold px-3 sm:px-6 py-3 rounded-lg hover:opacity-90 transition text-sm sm:text-base text-center relative z-10"
-                  >
-                    Browse More
-                  </a>
+                  
                 </div>
 
                 {/* Hover text content - positioned in the text area */}

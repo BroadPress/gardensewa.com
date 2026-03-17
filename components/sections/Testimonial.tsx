@@ -72,16 +72,16 @@ const Testimonial: React.FC = () => {
             title="Milton Hotel"
             comment="I contacted GardenSewa to manage our garden, and I am very satisfied with their work. They cleaned everything, planted new flowers, and even gave tips on how to take care of plants. Now, our  garden looks very beautiful and well maintained."
             imageAlt="Amrita Bharati"
-            imageSrc="/image/userimage/1.png"
+            imageSrc="/testimonials/1.png"
           />
 
           {/* Testimonial 2 */}
           <TestimonialCard
-            name="Manish Sharma"
+            name="Manish Singh"
             title="Aloft Hotel"
             comment="We recently renovated our garden with the help of GardenSewa. The team was very friendly, and they understood exactly what we wanted. They added fresh grass, some lovely plants, and proper lighting. It feels like a little resort now. Highly recommended!"
             imageAlt="Manish Sharma"
-            imageSrc="/image/userimage/2.png"
+            imageSrc="/testimonials/2.png"
           />
 
           {/* Testimonial 3 */}
@@ -90,7 +90,7 @@ const Testimonial: React.FC = () => {
             title="Kathmandu Airport"
             comment="Our front lawn was in very bad condition, full of dirt and dry patches. GardenSewa came and did turfing and regular lawn care. Within a few weeks, everything changed. The grass is green, and the area feels fresh again. Thank you for the excellent service!"
             imageAlt="Rizan Niroula"
-            imageSrc="/image/userimage/3.png"
+            imageSrc="/testimonials/3.png"
           />
         </div>
       </div>

@@ -33,19 +33,19 @@ const features = [
     title: "Mission",
     description:
       "Our mission is to provide high-quality plants, gardening resources, and expert support to every corner of Nepal.",
-    icon: "/image/navbar/about/mission.png",
+    icon: "/about/mission.png",
   },
   {
     title: "Motive",
     description:
       "We aim to be the go-to place for all gardening needs, offering easy access to plants and expert advice for every gardener and farmer.",
-    icon: "/image/navbar/about/motive.png",
+    icon: "/about/motive.png",
   },
   {
     title: "Vision",
     description:
       "Our vision is to cultivate a greener Nepal by promoting responsible gardening practices and reconnecting people with nature.",
-    icon: "/image/navbar/about/vision.png",
+    icon: "/about/vision.png",
   },
 ];
 export default function AboutPage() {
@@ -138,7 +138,7 @@ export default function AboutPage() {
           {/* Right Column */}
           <div>
             <Image
-              src="/image/navbar/about/two-potted-plants.jpg"
+              src="/about/1.jpg"
               alt="Two potted plants on a wooden table"
               height={600}
               width={600}
@@ -182,7 +182,7 @@ export default function AboutPage() {
           <div
             className="relative w-full max-w-full mx-0 overflow-hidden py-12"
             style={{
-              backgroundImage: "url(/image/navbar/about/OurMission.jpg)",
+              backgroundImage: "url(/about/bg.jpg)",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundAttachment: "fixed",
@@ -235,7 +235,7 @@ export default function AboutPage() {
             {/* Left Image - Cactus */}
             <div className="relative h-64 w-full overflow-hidden rounded-b-none rounded-xl md:h-auto md:w-1/2 mt-20">
               <img
-                src="/image/navbar/contact/img1.png"
+                src="/about/2.jpg"
                 alt="Cactus growing by the sea"
                 className="h-full w-full object-cover"
               />
@@ -243,7 +243,7 @@ export default function AboutPage() {
             {/* Right Image - Potted Plants */}
             <div className="relative h-64 w-full overflow-hidden rounded-t-none rounded-xl md:h-auto md:w-1/2">
               <img
-                src="/image/navbar/contact/img2.png"
+                src="/about/3.jpg"
                 alt="Two plants in wooden vases"
                 className="h-64 w-full object-cover rounded-b-xl"
               />

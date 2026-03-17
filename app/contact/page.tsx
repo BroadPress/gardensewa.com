@@ -45,7 +45,7 @@ const ContactPage = () => {
         {/* Header Section */}
         <div className="relative w-full h-[280px] sm:h-[320px] lg:h-[360px] flex items-center justify-center text-white mb-8 sm:mb-12 lg:mb-20">
           <img
-            src="/image/navbar/contact/contactbg.jpg"
+            src="/contact/contactbg.jpg"
             alt="A large green plant"
             className="absolute inset-0 z-0 object-cover w-full h-full"
           />
@@ -307,9 +307,15 @@ const ContactPage = () => {
                       {expert.name}
                     </p>
                   </div>
-                  <button className="border rounded px-4 py-2 border-primary text-primary mt-4 hover:bg-primary hover:text-white">
-                    WhatsApp
-                  </button>
+                  <a
+                href="https://d.sriyog.com/gSewa" 
+                target="_blank" 
+                rel="noopener"
+              >
+                <button className="border rounded px-4 py-2 border-primary text-primary mt-4 hover:bg-primary hover:text-white cursor-pointer transition-colors duration-300">
+                  WhatsApp
+                </button>
+              </a>
                 </div>
               ))}
             </div>

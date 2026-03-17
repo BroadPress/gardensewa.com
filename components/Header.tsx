@@ -136,7 +136,7 @@ export default function Header() {
               <Link href="/" className="flex items-center group">
                 <Image
                   className="cursor-pointer transition-transform duration-200 group-hover:scale-105"
-                  src="/image/logo/gardensewa.png"
+                  src="/logo/gardensewa.png"
                   alt="Gardensewa"
                   width={50}
                   height={50}

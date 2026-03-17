@@ -22,14 +22,14 @@ const HELP_LINKS = [
 const NEWS_ITEMS = [
   {
     id: 1,
-    image: "/image/navbar/navimg1.png",
+    image: "/blog/1/1.jpg",
     title: "How Flower Brings Happiness",
     author: "Aakash Thapa",
     date: "29/07/2025",
   },
   {
     id: 2,
-    image: "/image/navbar/navimg2.png",
+    image: "/blog/2/2.jpg",
     title: "The Blooming Business of GardenSewa",
     author: "Thiranjan Sharma",
     date: "29/07/2025",
@@ -37,9 +37,9 @@ const NEWS_ITEMS = [
 ];
 
 const SOCIAL_LINKS = [
-  { src: "/image/navbar/fb.png", alt: "Facebook" },
-  { src: "/image/navbar/ld.png", alt: "LinkedIn" },
-  { src: "/image/navbar/twitter.png", alt: "Twitter" },
+  { src: "/icons/fb.png", alt: "Facebook" },
+  { src: "/icons/ld.png", alt: "LinkedIn" },
+  { src: "/icons/twitter.png", alt: "Twitter" },
 ];
 
 // Reusable Components
@@ -137,14 +137,14 @@ const AppStoreButtons = memo(({ isMobile = false }: AppStoreButtonsProps) => (
     }`}
   >
     <Image
-      src="/image/home/footer/app-store.png"
+      src="/home/footer/app-store.png"
       alt="App Store"
       width={isMobile ? 150 : 120}
       height={isMobile ? 60 : 33}
       className="cursor-pointer hover:opacity-80 transition-opacity"
     />
     <Image
-      src="/image/home/footer/play-store.png"
+      src="/home/footer/play-store.png"
       alt="Google Play"
       width={isMobile ? 150 : 120}
       height={isMobile ? 60 : 33}
@@ -159,7 +159,7 @@ const BrandInfo = memo(() => (
   <div className="mr-10 w-[250px]">
     <div className="flex items-center mb-3">
       <Image
-        src="/image/logo/gardensewa.png"
+        src="/logo/gardensewa.png"
         alt="Gardensewa"
         width={40}
         height={40}

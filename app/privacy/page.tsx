@@ -184,7 +184,7 @@ const PrivacyPolicyPage = () => {
               <li>Request deletion of your personal information (subject to legal obligations)</li>
             </ul>
             <p className="text-gray-700 leading-relaxed mt-4">
-              To exercise these rights, contact us at <a href="mailto:gardenseva@mail.com" className="text-primary hover:underline">gardenseva@mail.com</a>
+              To exercise these rights, contact us at <a href="mailto:gardensewa@sriyog.com" className="text-primary hover:underline">gardensewa@sriyog.com</a>
             </p>
           </section>
         </main>

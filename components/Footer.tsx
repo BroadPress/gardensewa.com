@@ -183,7 +183,7 @@ BrandInfo.displayName = "BrandInfo";
 const NewsletterSection = memo(() => (
   <div
     className="absolute top-0 left-0 right-0 z-10"
-    style={{ transform: "translateY(-90.5px)" }}
+    style={{ transform: "translateY(-90px)" }}
   >
     <div
       className="bg-primary text-white px-4 sm:px-8 mx-2 sm:mx-4 md:mx-28 rounded-2xl shadow-2xl"

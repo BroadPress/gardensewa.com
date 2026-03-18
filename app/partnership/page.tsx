@@ -125,7 +125,7 @@ const HomePage = () => {
             <FormSectionTitle title="Company Information" />
             <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-1 mb-6">
               <FormInput
-                label="Company Name"
+                label="Business Name"
                 name="companyName"
                 type="text"
                 value={formData.companyName}
@@ -133,7 +133,7 @@ const HomePage = () => {
                 required
               />
               <FormInput
-                label="Contact Person"
+                label="Name of Contact Person"
                 name="contactPerson"
                 type="text"
                 value={formData.contactPerson}
@@ -160,7 +160,7 @@ const HomePage = () => {
               />
             </div>
 
-            <FormSectionTitle title="Company Address" />
+            <FormSectionTitle title="Business Address" />
             <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-3 mb-6">
               <FormSelect
                 label="Province"
@@ -240,7 +240,7 @@ const HomePage = () => {
               <option value="other">Other</option>
             </select>
           </div>
-            <div className="mb-6">
+            <div className="mt-6">
               <FormTextarea
                 label="Project Details"
                 name="projectDetails"
@@ -257,13 +257,13 @@ const HomePage = () => {
                 name="confidentiality"
                 checked={formData.confidentiality}
                 onChange={handleChange}
-                className="mt-1 h-4 w-4 text-green-600 border-gray-300 rounded focus:ring-green-500"
+                className="mt-6 h-4 w-4 text-green-600 border-gray-300 rounded focus:ring-green-500"
               />
               <label
                 htmlFor="confidentiality"
-                className="ml-2 text-sm text-gray-900"
+                className="mt-6 text-sm text-gray-900"
               >
-                I hereby declare that my information is <strong>fact</strong> and I want to have a partnership opportunity with GardenSewa.
+                 I hereby declare that my information is <strong>fact</strong> and I want to have a partnership opportunity with GardenSewa.
               </label>
             </div>
 
@@ -411,7 +411,7 @@ const FormTextarea = ({
       rows={3}
       value={value}
       onChange={onChange}
-      placeholder="Describe why you want to be our client."
+      placeholder="Describe why you want to become our partner."
       required={required}
       className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm"
     />

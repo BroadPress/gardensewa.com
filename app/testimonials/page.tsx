@@ -30,7 +30,7 @@ const testimonials: Testimonial[] = [
     image: "/testimonials/3.png",
   },
   {
-    name: "Sanjay Rai",
+    name: "Sanjay Pandey",
     quote:
       "Their lawn care service is top-notch. GardenSewa maintains our lawn with precision mowing, fertilization, and weed control. The results are always impressive and our neighbors are envious!",
     image: "/testimonials/4.png",

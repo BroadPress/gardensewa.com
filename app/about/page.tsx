@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { ChevronRight } from "lucide-react";
 import Head from "next/head";
+import Roadblock from "@/components/Roadblock";
 
 interface FeatureCardProps {
   title: string;
@@ -204,6 +205,9 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
+
+      {/* Roadblock */}
+      <Roadblock />
 
       {/* Call to Action Section */}
       <main className="flex items-center justify-center bg-green-50 mb-40">

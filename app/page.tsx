@@ -1,5 +1,6 @@
 "use client";
 import Homepage from "@/components/Homepage";
+import Roadblock from "@/components/Roadblock";
 import Head from "next/head";
 
 export default function Home() {
@@ -14,6 +15,8 @@ export default function Home() {
       <meta property="og:image" content="https://www.gardensewa.com/og/home.jpg" />
       <meta property="og:image:alt" content="Gardening Services in Nepal" />
     </Head>
+          {/* Roadblock */}
+          <Roadblock />
     <section className="mx-auto lg:w-full max-md:p-3">
       <Homepage />
     </section>

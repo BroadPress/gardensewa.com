@@ -7,7 +7,7 @@ import ChooseUs from "./sections/ChooseUsAndClients";
 import ServicesAndPlants from "./sections/ServicesAndPlants";
 import LatestUpdates from "./sections/LatestUpdates";
 import Testimonial from "./sections/Testimonial";
-import OurPartners from "./sections/OurParteners";
+import OurPartners from "./sections/OurPartners";
 
 export default function HeroSlider() {
   return (

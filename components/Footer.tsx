@@ -6,7 +6,7 @@ import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 // Constants
 const QUICK_LINKS = [
-  { href: "https://biratinfo.com/author/gardensewa", label: "Blog" },
+  { href: "/blog", label: "Blog" },
   { href: "/testimonials", label: "Testimonials" },
   { href: "/partners", label: "Our Partners" },
   { href: "/partnership", label: "Become a Partner" },
@@ -29,7 +29,7 @@ const NEWS_ITEMS = [
   },
   {
     id: 2,
-    image: "/blog/2/2.jpg",
+    image: "/blog/2/1.jpg",
     title: "The Blooming Business of GardenSewa",
     author: "Thiranjan Sharma",
     date: "29/07/2025",
@@ -319,7 +319,7 @@ const Footer = memo(() => {
           {/* Bottom Footer */}
           <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4 border-t border-border pt-4 pb-4 mt-auto">
             <div className="text-xs sm:text-sm text-text text-center md:text-left w-full">
-              Copyright © SRIYOG Consulting Pvt. Ltd. All Rights Reserved.
+              Copyright © Garden Sewa. All Rights Reserved. Built with : <a href="https://broadpress.org" target="_blank" rel="noopener" className="hover:text-green-600 transition-colors">BroadPress</a>
             </div>
             <SocialIcons />
           </div>

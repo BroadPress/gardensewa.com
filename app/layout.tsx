@@ -13,7 +13,7 @@ const alef = AlefFont({
 });
 
 export const metadata: Metadata = {
-  title: "Gardensewa | Your Trusted Gardening & Nursery Partner",
+  title: "Garden Sewa | Professional Gardening Services in Nepal",
   description: "gardensewa.com",
   icons: "/gardensewa.png",
 };

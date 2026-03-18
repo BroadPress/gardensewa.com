@@ -52,23 +52,28 @@ const ChooseUs: React.FC = () => {
   const clients = [
     {
       image: "home/client/1.png",
-      name: "Bajeko Sekuwa",
-      text: "",
+      name: "Aloft Hotel Kathmandu",
+      text: "A modern lifestyle hotel offering stylish stays, vibrant social spaces, and premium hospitality experiences in the heart of the city.",
 
     },
     {
       image: "home/client/2.png",
+      name: "Bajeko Sekuwa",
+      text: "A popular Nepali restaurant brand known for its authentic sekuwa, traditional flavors, and lively dining atmosphere across multiple locations.",
 
 
     },
     {
       image: "home/client/3.png",
-      name: "Aloft",
+      name: "Club Himalaya",
+      text: "A scenic hilltop resort providing comfortable stays, panoramic mountain views, and relaxing hospitality for both leisure and adventure travelers.",
 
 
     },
     {
       image: "home/client/4.png",
+      name: "Soaltee Westend Itahari",
+      text: "A premium hotel in Itahari delivering refined accommodations, elegant ambiance, and high-quality hospitality services for business and leisure guests.",
       
 
       

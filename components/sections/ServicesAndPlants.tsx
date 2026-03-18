@@ -22,33 +22,34 @@ interface Plant {
 const services: Service[] = [
   {
     id: "1",
-    title: "Gardening Service",
-    imageUrl: "/services/1.jpg",
+    title: "Garden Maintenance",
+    imageUrl: "/services/3.jpg",
+    
   },
   {
     id: "2",
-    title: "Landscaping Services",
-    imageUrl: "/services/2.jpg",
-  },
-  {
-    id: "3",
-    title: "Turfing Service",
-    imageUrl: "/services/3.jpg",
-  },
-  {
-    id: "4",
-    title: "Gardening Makeovers",
-    imageUrl: "/services/4.jpg",
-  },
-  {
-    id: "5",
-    title: "Seasonal Service",
+    title: "Irrigation Services",
     imageUrl: "/services/5.jpg",
   },
   {
+    id: "3",
+    title: "Landscape Design",
+    imageUrl: "/services/9.jpg",
+  },
+  {
+    id: "4",
+    title: "Consultation Services",
+    imageUrl: "/services/13.jpg",
+  },
+  {
+    id: "5",
+    title: "Landscape Lighting",
+    imageUrl: "/services/15.jpg",
+  },
+  {
     id: "6",
-    title: "Lawn Care",
-    imageUrl: "/services/6.jpg",
+    title: "Temporary Gardening",
+    imageUrl: "/services/17.jpg",
   },
 ];
 

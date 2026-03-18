@@ -269,7 +269,7 @@ const ServicesPage: React.FC = () => {
           {/* Top Services Section */}
           <main>
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-[52px] font-semibold text-secondary text-center mb-6 sm:mb-8 md:mb-10 leading-tight px-4">
-              Common Services
+              Featured Services
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">

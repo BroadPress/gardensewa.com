@@ -124,8 +124,10 @@ const ContactPage = () => {
                       Phone
                     </h3>
                     <p className="text-gray-600 text-base sm:text-lg">
+                    <a href="tel:+9779852025735" className="hover:underline">
                       +977-9852025735
-                    </p>
+                    </a>
+                  </p>
                   </div>
                 </div>
 
@@ -272,8 +274,9 @@ const ContactPage = () => {
               Our Location
             </h2>
             <div className="relative w-full h-[250px] sm:h-[350px] lg:h-[400px] rounded-xl lg:rounded-2xl overflow-hidden border border-gray-200">
+              
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d883.0493883767512!2d85.3226278695138!3d27.711186085795504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef740a066ed089%3A0xaf7934e44a7b1e17!2sSRIYOG!5e0!3m2!1sen!2snp!4v1754747091169!5m2!1sen!2snp"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.197557059727!2d85.32069221171379!3d27.711185976081037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19e024ab677d%3A0x8079366964ad9d06!2sGarden%20Sewa!5e0!3m2!1sen!2snp!4v1773803300645!5m2!1sen!2snp"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"

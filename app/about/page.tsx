@@ -128,7 +128,7 @@ export default function AboutPage() {
                     175 +
                   </p>
                   <p className="text-black text-sm md:text-base">
-                    Happy Customers
+                    Successful Projects
                   </p>
                 </div>
               </div>

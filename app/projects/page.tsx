@@ -6,66 +6,42 @@ import { useState } from "react";
 import Head from "next/head";
 
 const clients = [
-  {
-    image: "/projects/1.jpg",
-    name: "Solatee Westend",
-    text: "Built a Zen-style garden at a wellness retreat, incorporating smooth river stones, calming water features, and minimalistic greenery to create a peaceful space for relaxation and meditation.",
-      },
-  {
-    image: "/projects/2.jpg",
-    name: "Baneshwor Project",
-    text: "Designed and planted a vibrant flower garden at a corporate office, combining seasonal blooms, creative color patterns, and low-maintenance greenery to provide a visually stunning and professional outdoor space.",
-  },
-  {
-    image: "/projects/3.jpg",
-    name: "Jawalakhel Project",
-    text: "Maintained a lush green lawn at a residential villa, ensuring every blade of grass stayed healthy through regular mowing, precise watering schedules, and nutrient-rich fertilizing to keep it vibrant all year.",
-  },
-  {
-    image: "/projects/4.jpg",
-    name: "Sano Thimi Project",
-    text: "Pruned and shaped decorative hedges at a luxury hotel, creating artistic patterns, removing overgrowth, and enhancing curb appeal to maintain a polished and inviting outdoor environment for guests.",
-  },
-  {
-    image: "/projects/5.jpg",
-    name: " Anamnagar Project",
-    text: "Installed an automatic irrigation system for a farmhouse, using water-saving technology, adjustable timers, and strategic placement to optimize coverage while maintaining plant health in all weather conditions.",
-  },
-  {
-    image: "/projects/6.jpg",
-    name: "Budhanilkantha Project",
-    text: "Restored a community park’s flower beds, removing old and faded plants, introducing fresh seasonal flowers, and enriching the soil to promote long-lasting, healthy blooms throughout the year.",
-  },
-  {
-    image: "/projects/7.jpg",
-    name: "Gathaghar Project",
-    text: "Revitalized a backyard vegetable patch, enriching the soil with organic compost, planting fresh seedlings, and installing proper irrigation to ensure a consistent and healthy supply of homegrown produce.",
-  },
-  {
-    image: "/projects/8.jpg",
-    name: "Dhulikhel Project",
-    text: "Renovated a school playground with safe, eco-friendly greenery, replacing worn-out turf, planting soft grass varieties, and adding shaded plant areas to create a healthy and child-friendly outdoor learning space.",
-  },
-  {
-    image: "/projects/9.jpg",
-    name: "Naikap Project",
-    text: "Created a rooftop herb garden for an apartment, using vertical planters, organic soil blends, and smart sun positioning to maximize growth while keeping fresh herbs within easy reach for daily use.",
-  },
-  {
-    image: "/projects/10.jpg",
-    name: "Kamalpokhari Project",
-    text: "Landscaped a beachfront garden with tropical plants, carefully selecting salt-tolerant species, adding decorative pathways, and incorporating shaded seating areas to create a relaxing coastal retreat.",
-  },
-  {
-    image: "/projects/11.jpg",
-    name: "Banepa Project",
-    text: "Planted palm trees along a villa driveway, arranging them for symmetrical balance, adding decorative ground cover, and integrating lighting to highlight their beauty both day and night.",
-  },
-  {
-    image: "/projects/12.jpg",
-    name: "Naxal Project",
-    text: "Added seasonal blooms to a shopping mall entrance, arranging vibrant floral displays, matching colors to brand themes, and ensuring a fresh, welcoming look for shoppers and visitors alike.",
-  },
+  { image: "/projects/1.jpg", name: "Solatee Westend", text: "Designed and maintained luxury hotel gardens with elegant landscaping, water features, and premium greenery to enhance guest experience." },
+  { image: "/projects/2.jpg", name: "Bajeko Sekuwa", text: "Developed stylish outdoor dining greenery with decorative plants and low-maintenance landscaping for a vibrant restaurant ambiance." },
+  { image: "/projects/3.jpg", name: "Sudarshan Resort", text: "Maintained resort landscapes with lush lawns, seasonal plants, and relaxing green spaces for a premium hospitality experience." },
+  { image: "/projects/4.jpg", name: "Pokhara Airport", text: "Enhanced airport surroundings with structured landscaping, greenery zones, and clean, welcoming outdoor environments." },
+  { image: "/projects/5.jpg", name: "Gokarna Forest Resort", text: "Preserved natural forest resort beauty with eco-friendly landscaping and sustainable garden maintenance practices." },
+  { image: "/projects/6.jpg", name: "Ncell", text: "Upgraded corporate office spaces with modern landscaping, decorative plants, and low-maintenance green environments." },
+  { image: "/projects/7.jpg", name: "Dusit Thani Himalaya Resort", text: "Created premium resort landscapes with luxury garden design, water features, and curated greenery." },
+  { image: "/projects/8.jpg", name: "Club Himalaya", text: "Maintained hilltop resort greenery with scenic landscaping and climate-friendly plantation systems." },
+  { image: "/projects/9.jpg", name: "Hotel Bhadgaon", text: "Enhanced boutique hotel ambiance with traditional garden designs and heritage-style landscaping." },
+  { image: "/projects/10.jpg", name: "Kavya Himalayas", text: "Developed eco-luxury retreat landscapes with natural elements, organic plants, and peaceful green zones." },
+  { image: "/projects/11.jpg", name: "Mercure Kathmandu", text: "Designed contemporary hotel landscaping with structured lawns, decorative plants, and modern outdoor aesthetics." },
+  { image: "/projects/12.jpg", name: "Kathmandu Guest House", text: "Maintained iconic hotel gardens with vibrant flowers and relaxing green courtyards for guests." },
+  { image: "/projects/13.jpg", name: "Sankha Park", text: "Upgraded public park greenery with organized plantations, walking paths, and recreational landscaping." },
+  { image: "/projects/14.jpg", name: "Hotel Aikawa, Sauraha", text: "Developed resort garden spaces with tropical plants and wildlife-friendly landscaping in a tourism hub." },
+  { image: "/projects/15.jpg", name: "The British School", text: "Created safe and green educational environments with playground lawns and student-friendly landscaping." },
+  { image: "/projects/16.jpg", name: "Ramesh Corp", text: "Designed corporate green zones with professional landscaping to enhance office aesthetics and productivity." },
+  { image: "/projects/17.jpg", name: "Nabil Bank", text: "Improved banking premises with clean, modern greenery and low-maintenance landscape design." },
+  { image: "/projects/18.jpg", name: "Budhanilkantha School", text: "Maintained large school campuses with healthy lawns, shaded areas, and structured plantation systems." },
+  { image: "/projects/19.jpg", name: "Shankhamul Park", text: "Revitalized urban park spaces with sustainable landscaping and community-friendly greenery." },
+  { image: "/projects/20.jpg", name: "Ullens School", text: "Developed eco-friendly school landscapes with innovative green spaces for learning and recreation." },
+  { image: "/projects/21.jpg", name: "Alice Receptions", text: "Designed elegant banquet gardens with decorative plants and floral arrangements for events." },
+  { image: "/projects/22.jpg", name: "Grande International Hospital", text: "Created healing garden environments with calming greenery for patient wellness and recovery." },
+  { image: "/projects/23.jpg", name: "Silver Oak Banquet", text: "Enhanced banquet venues with premium landscaping and decorative outdoor event spaces." },
+  { image: "/projects/24.jpg", name: "The British College", text: "Upgraded college campuses with modern landscaping and structured green areas." },
+  { image: "/projects/25.jpg", name: "Rani Mahal Banquet", text: "Developed luxury event garden spaces with premium lawns and floral setups." },
+  { image: "/projects/26.jpg", name: "Nepal Mediciti Hospital", text: "Built peaceful hospital landscapes focused on patient comfort and green healing environments." },
+  { image: "/projects/27.jpg", name: "Frontline Hospital", text: "Maintained clean and green hospital surroundings with organized landscaping." },
+  { image: "/projects/28.jpg", name: "Waterfront Resort", text: "Designed scenic waterfront resort landscapes with relaxing greenery and natural elements." },
+  { image: "/projects/29.jpg", name: "Rupy’s International School", text: "Created child-friendly green campuses with safe lawns and educational outdoor spaces." },
+  { image: "/projects/30.jpg", name: "Norvic Hospital", text: "Enhanced hospital gardens with structured greenery for a clean and calming environment." },
+  { image: "/projects/31.jpg", name: "Fortune Resort", text: "Developed resort landscapes with premium greenery and luxury outdoor aesthetics." },
+  { image: "/projects/32.jpg", name: "Kathmandu Dhumbarahi", text: "Maintained international hotel landscaping with elegant lawns and decorative outdoor designs." },
+  { image: "/projects/33.jpg", name: "Tribhuwan Park", text: "Developed public recreational parks with organized greenery and visitor-friendly landscaping." },
+  { image: "/projects/34.jpg", name: "Basundhara Park", text: "Upgraded urban park spaces with improved plantation and green infrastructure." },
+  { image: "/projects/35.jpg", name: "Garden of Dreams", text: "Maintained heritage garden spaces with artistic landscaping and historical preservation." },
+  { image: "/projects/36.jpg", name: "Rem.Work", text: "Nepal's Top Co-working space indoor gardening services were managed to provide a serene and productive environment." },
 ];
 
 export default function ClientPage() {
@@ -93,7 +69,7 @@ export default function ClientPage() {
         className={`relative h-[360px] overflow-hidden flex items-center justify-center text-white mb-20`}
       >
         <img
-          src="/image/project/projectImage.png"
+          src="/projects/pgbg.jpg"
           alt="A large green plant"
           height={400}
           width={400}
@@ -113,7 +89,7 @@ export default function ClientPage() {
 
             {/* Section title */}
             <h1 className="mb-4 text-5xl font-bold text-white md:text- [52px]">
-              Our Projects
+              Garden Development Projects
             </h1>
 
             {/* Section description */}
@@ -165,7 +141,7 @@ export default function ClientPage() {
           className={`relative w-full h-[360px] flex items-center justify-center text-white`}
         >
           <img
-            src="/image/project/projectimage2.png"
+            src="/projects/footer-bg.jpg"
             alt="A large green plant"
             height={400}
             width={400}
@@ -174,16 +150,16 @@ export default function ClientPage() {
           <div className="absolute inset-0 bg-black/30 opacity-60 z-10"></div>
 
           <div className="relative z-10 max-w-4xl text-center px-4">
-            <h1 className="text-5xl md:text-6xl font-bold mb-4">
+            <h2 className="text-5xl md:text-6xl font-bold mb-4">
               Want to grow with Gardensewa?
-            </h1>
+            </h2>
 
             <p className="text-lg md:text-xl text-gray-200 leading-relaxed mb-8">
               Join our growing network of satisfied clients.
             </p>
             <Link href="book">
-              <button className="buttonColorFill text-white font-semibold px-6 py-2 md:px-8 md:py-3 rounded-4xl hover:bg-secondary transition">
-                Become a client
+              <button className="cursor-pointer buttonColorFill text-white font-semibold px-6 py-2 md:px-8 md:py-3 rounded-4xl hover:bg-secondary transition">
+                Book a Service
               </button>
             </Link>
           </div>

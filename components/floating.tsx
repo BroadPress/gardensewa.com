@@ -7,7 +7,7 @@ const Floating: React.FC = () => {
       <div className="fixed bottom-4 right-4 flex flex-col space-y-3 z-50 mb-12">
         {/* Call Button */}
         <a
-          href=" +9779852025735"
+          href="tel:+9779852025735"
           className="bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-600 transition duration-200 animate-ringing"
           aria-label="Call Us"
         >

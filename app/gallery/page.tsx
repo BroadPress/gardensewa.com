@@ -16,32 +16,32 @@ const topServices: GalleryItem[] = [
   {
     id: 1,
     imageUrl: "/gallery/1.jpg",
-    altText: "Gardening Service",
+    altText: "GardenSewa gallery",
   },
   {
     id: 2,
     imageUrl: "/gallery/2.jpg",
-    altText: "Watering Plants",
+    altText: "GardenSewa gallery",
   },
   {
     id: 3,
     imageUrl: "/gallery/3.jpg",
-    altText: "Garden Maintenance",
+    altText: "GardenSewa gallery",
   },
   {
     id: 4,
     imageUrl: "/gallery/4.jpg",
-    altText: "Planting Seedlings",
+    altText: "GardenSewa gallery",
   },
   {
     id: 5,
     imageUrl: "/gallery/5.jpg",
-    altText: "Caring for Young Plants",
+    altText: "GardenSewa gallery",
   },
   {
     id: 6,
     imageUrl: "/gallery/6.jpg",
-    altText: "Greenhouse Flowers",
+    altText: "GardenSewa gallery",
   },
 ];
 
@@ -49,22 +49,22 @@ const indoorOutdoorPlants: GalleryItem[] = [
   {
     id: 7,
     imageUrl: "/gallery/7.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 8,
     imageUrl: "/gallery/8.jpg",
-    altText: "Indoor plants in a living room",
+    altText: "GardenSewa gallery",
   },
   {
     id: 9,
     imageUrl: "/gallery/9.jpg",
-    altText: "Spring flowers in pots",
+    altText: "GardenSewa gallery",
   },
   {
     id: 10,
     imageUrl: "/gallery/10.jpg",
-    altText: "Herbs on a table",
+    altText: "GardenSewa gallery",
   },
   {
     id: 11,
@@ -82,22 +82,22 @@ const rarePlants: GalleryItem[] = [
   {
     id: 1,
     imageUrl: "/gallery/13.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 2,
     imageUrl: "/gallery/14.jpg",
-    altText: "Indoor plants in a living room",
+    altText: "GardenSewa gallery",
   },
   {
     id: 3,
     imageUrl: "/gallery/15.jpg",
-    altText: "Spring flowers in pots",
+    altText: "GardenSewa gallery",
   },
   {
     id: 4,
     imageUrl: "/gallery/16.jpg",
-    altText: "Herbs on a table",
+    altText: "GardenSewa gallery",
   },
   {
     id: 5,
@@ -116,433 +116,433 @@ const morePlants: GalleryItem[] = [
     id: 19,
     imageUrl:
       "/gallery/19.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 20,
     imageUrl:
       "/gallery/20.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 21,
     imageUrl:
       "/gallery/21.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 22,
     imageUrl:
       "/gallery/22.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 23,
     imageUrl:
       "/gallery/23.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 24,
     imageUrl:
       "/gallery/24.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 25,
     imageUrl:
       "/gallery/25.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 26,
     imageUrl:
       "/gallery/26.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 27,
     imageUrl:
       "/gallery/27.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 28,
     imageUrl:
       "/gallery/28.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 29,
     imageUrl:
       "/gallery/29.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 30,
     imageUrl:
       "/gallery/30.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 31,
     imageUrl:
       "/gallery/31.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 32,
     imageUrl:
       "/gallery/32.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 33,
     imageUrl:
       "/gallery/33.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 34,
     imageUrl:
       "/gallery/34.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 35,
     imageUrl:
       "/gallery/35.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 36,
     imageUrl:
       "/gallery/36.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 37,
     imageUrl:
       "/gallery/37.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 38,
     imageUrl:
       "/gallery/38.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 39,
     imageUrl:
       "/gallery/39.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 40,
     imageUrl:
       "/gallery/40.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 41,
     imageUrl:
       "/gallery/41.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 42,
     imageUrl:
       "/gallery/42.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 43,
     imageUrl:
       "/gallery/43.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 44,
     imageUrl:
       "/gallery/44.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 45,
     imageUrl:
       "/gallery/45.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 46,
     imageUrl:
       "/gallery/46.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 47,
     imageUrl:
       "/gallery/47.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 48,
     imageUrl:
       "/gallery/48.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 49,
     imageUrl:
       "/gallery/49.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 50,
     imageUrl:
       "/gallery/50.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 51,
     imageUrl:
       "/gallery/51.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 52,
     imageUrl:
       "/gallery/52.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 53,
     imageUrl:
       "/gallery/53.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 54,
     imageUrl:
       "/gallery/54.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 55,
     imageUrl:
       "/gallery/55.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 56,
     imageUrl:
       "/gallery/56.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 57,
     imageUrl:
       "/gallery/57.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 58,
     imageUrl:
       "/gallery/58.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 59,
     imageUrl:
       "/gallery/59.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 60,
     imageUrl:
       "/gallery/60.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 61,
     imageUrl:
       "/gallery/61.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 62,
     imageUrl:
       "/gallery/62.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 63,
     imageUrl:
       "/gallery/63.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 64,
     imageUrl:
       "/gallery/64.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 65,
     imageUrl:
       "/gallery/65.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 66,
     imageUrl:
       "/gallery/66.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 67,
     imageUrl:
       "/gallery/67.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 68,
     imageUrl:
       "/gallery/68.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 69,
     imageUrl:
       "/gallery/69.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 70,
     imageUrl:
       "/gallery/70.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 71,
     imageUrl:
       "/gallery/71.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 72,
     imageUrl:
       "/gallery/72.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 73,
     imageUrl:
       "/gallery/73.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 74,
     imageUrl:
       "/gallery/74.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 75,
     imageUrl:
       "/gallery/75.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 76,
     imageUrl:
       "/gallery/76.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 77,
     imageUrl:
       "/gallery/77.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 78,
     imageUrl:
       "/gallery/78.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 79,
     imageUrl:
       "/gallery/79.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 80,
     imageUrl:
       "/gallery/80.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 81,
     imageUrl:
       "/gallery/81.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 82,
     imageUrl:
       "/gallery/82.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 83,
     imageUrl:
       "/gallery/83.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 84,
     imageUrl:
       "/gallery/84.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 85,
     imageUrl:
       "/gallery/85.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 86,
     imageUrl:
       "/gallery/86.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 87,
     imageUrl:
       "/gallery/87.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 88,
     imageUrl:
       "/gallery/88.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 89,
     imageUrl:
       "/gallery/89.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   {
     id: 90,
     imageUrl:
       "/gallery/90.jpg",
-    altText: "Cactus in a pot",
+    altText: "GardenSewa gallery",
   },
   
 ];
@@ -572,13 +572,13 @@ const GalleryPage: React.FC = () => {
     <div className="mb-40">
       <Head>
         <title>Gallery</title>
-      <meta name="keywords" content="gardening services Nepal, garden maintenance, landscaping Nepal, plant care, hotel landscaping, resort garden services, indoor plants Nepal, outdoor plants Nepal, garden cleanup, regular garden maintenance, Nepal gardeners, GardenSewa"/>
+      <meta name="keywords" content="GardenSewa gallerys Nepal, GardenSewa gallery, landscaping Nepal, plant care, hotel landscaping, resort garden services, indoor plants Nepal, outdoor plants Nepal, garden cleanup, regular GardenSewa gallery, Nepal gardeners, GardenSewa"/>
       <meta property="og:url" content="https://www.gardensewa.com/" />
-      <meta property="og:title" content="Gardening Services in Nepal" />
+      <meta property="og:title" content="GardenSewa gallerys in Nepal" />
       <meta property="og:type" content="website" />
-      <meta property="og:description" content="Gardensewa.com offers expert gardening services, plant care, landscaping, and garden maintenance to help transform your outdoor spaces into beautiful, vibrant gardens. Get professional assistance with lawn care, tree trimming, and more!" />
+      <meta property="og:description" content="Gardensewa.com offers expert GardenSewa gallerys, plant care, landscaping, and GardenSewa gallery to help transform your outdoor spaces into beautiful, vibrant gardens. Get professional assistance with lawn care, tree trimming, and more!" />
       <meta property="og:image" content="https://www.gardensewa.com/og/gallery.jpg" />
-      <meta property="og:image:alt" content="Gardening Services in Nepal" />
+      <meta property="og:image:alt" content="GardenSewa gallerys in Nepal" />
 
       </Head>
       <div className="h-[209px] bg-card-stroke-light">

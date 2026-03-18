@@ -17,7 +17,7 @@ const testimonials: Testimonial[] = [
     image: "/testimonials/1.png",
   },
   {
-    name: "Ramesh Singh",
+    name: "Gurpreet Singh",
     quote:
       "The landscaping team at GardenSewa transformed our backyard into a paradise. Their creative design and expert execution created beautiful pathways, flower beds, and water features that perfectly match our vision.",
     image: "/testimonials/2.png",

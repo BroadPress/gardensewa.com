@@ -9,7 +9,7 @@ const partners = [
     description:
       "Home Garden Restoration’s expertise in reviving and transforming outdoor spaces has made them a valuable extension of the GardenSewa mission. Their dedication to quality restoration has brought life and charm back to many residential and commercial gardens.",
     logo: "/partners/1.png",
-    link: "https://homeparkgardens.co.uk/",
+    link: "https://www.homegardenrestoration.co.uk/",
   },
   {
     name: "Home Park Gardens",

@@ -27,7 +27,7 @@ const articles: Article[] = [
     img: "/author/1.png",
     date: "16 March 2026",
     readTime: "5 min",
-    Link: "/flowersblog",
+    Link: "#",
     description:
       "In today’s fast-paced and digitally driven world, finding moments of peace and happiness can feel challenging. We are constantly surrounded by screens, deadlines, and daily pressures. But sometimes, the simplest things can bring the greatest joy. One of those beautiful, natural sources of happiness is flowers.",
   },
@@ -40,7 +40,7 @@ const articles: Article[] = [
     img: "/author/2.png",
     date: "13 March 2026",
     readTime: "5 min",
-    Link: "/flowersblog",
+    Link: "#",
   },
   {
     id: "3",
@@ -51,7 +51,7 @@ const articles: Article[] = [
     img: "author/3.png",
     date: "6 March 2026",
     readTime: "5 min",
-    Link: "/flowersblog",
+    Link: "#",
   },
 ];
 

@@ -7,7 +7,7 @@ const partners = [
     name: "Home Garden Restoration",
     description: "LANDSCAPE & HORTICULTURE - Bringing Future Home -",
     logo: "/home/partners/1.png",
-    link: "https://homeparkgardens.co.uk/",
+    link: "https://www.homegardenrestoration.co.uk/",
   },
   {
     name: "Home Park Gardens",

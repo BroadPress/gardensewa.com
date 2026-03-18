@@ -68,19 +68,19 @@ const Testimonial: React.FC = () => {
         <div className="flex flex-wrap gap-6 items-center justify-center ">
           {/* Testimonial 1 */}
           <TestimonialCard
-            name="Amrita Bharati"
+            name="Smarika Karki"
             title="Gokarna Forest Resort"
             comment="I contacted GardenSewa to manage our garden, and I am very satisfied with their work. They cleaned everything, planted new flowers, and even gave tips on how to take care of plants. Now, our  garden looks very beautiful and well maintained."
-            imageAlt="Amrita Bharati"
+            imageAlt="Smarika Karki"
             imageSrc="/testimonials/1.png"
           />
 
           {/* Testimonial 2 */}
           <TestimonialCard
-            name="Manish Singh"
+            name="Gurpreet Singh"
             title="Aloft Hotel"
             comment="We recently renovated our garden with the help of GardenSewa. The team was very friendly, and they understood exactly what we wanted. They added fresh grass, some lovely plants, and proper lighting. It feels like a little resort now. Highly recommended!"
-            imageAlt="Manish Sharma"
+            imageAlt="Gurpreet Singh"
             imageSrc="/testimonials/2.png"
           />
 

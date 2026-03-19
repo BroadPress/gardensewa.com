@@ -14,7 +14,7 @@ const slides = [
     button: "Read More",
     buttonlink: "/about",
     button2: "Book a Service",
-    button2link: "/book",
+    button2link: "https://d.sriyog.com/gSewa",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const slides = [
     button: "Read More",
     buttonlink: "/about",
     button2: "Book a Service",
-    button2link: "/book",
+    button2link: "https://d.sriyog.com/gSewa",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const slides = [
     button: "Read More",
     buttonlink: "/about",
     button2: "Book a Service",
-    button2link: "/book",
+    button2link: "https://d.sriyog.com/gSewa",
   },
 ];
 

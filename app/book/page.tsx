@@ -72,7 +72,7 @@ export default function App() {
       <meta property="og:title" content="Gardening Services in Nepal" />
       <meta property="og:type" content="website" />
       <meta property="og:description" content="Gardensewa.com offers expert gardening services, plant care, landscaping, and garden maintenance to help transform your outdoor spaces into beautiful, vibrant gardens. Get professional assistance with lawn care, tree trimming, and more!" />
-      <meta property="og:image" content="https://www.gardensewa.com/og/book-a-service.jpg" />
+      <meta property="og:image" content="https://www.gardensewa.com/og/default.jpg" />
       <meta property="og:image:alt" content="Gardening Services in Nepal" />
 
     </Head>
@@ -88,7 +88,7 @@ export default function App() {
           property="og:description"
           content="Gardensewa.com offers expert gardening services, plant care, landscaping, and garden maintenance to help transform your outdoor spaces into beautiful, vibrant gardens. Get professional assistance with lawn care, tree trimming, and more!"
         />
-        <meta property="og:image" content="/images/og/book-a-service.jpg" />
+        <meta property="og:image" content="https://gardensewa.com/og/default.jpg" />
         <meta property="og:image:alt" content="Gardening Services in Nepal" />
       </Head>
       <div className="flex flex-col items-center justify-center h-[209] px-4 py-12 text-center bg-[#F6F9F6]">
@@ -131,19 +131,8 @@ export default function App() {
                   
                     required
                   />
-                </div><label htmlFor="email" className={labelStyle}>
-                    Email Address <RequiredMark />
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    className={inputStyle}
-                    required
-                  />
                 </div>
+                
                 <div>
                   <label htmlFor="phone" className={labelStyle}>
                     Phone Number <RequiredMark />
@@ -158,6 +147,59 @@ export default function App() {
                     required
                   />
                 </div>
+                
+                <label htmlFor="email" className={labelStyle}>
+                    Email Address 
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    className={inputStyle}
+                    required
+                  />
+                </div>
+
+                <div>
+                <label htmlFor="serviceType" className={labelStyle}>
+                  Required Service <RequiredMark />
+                </label>
+                <select
+                  id="serviceType"
+                  name="serviceType"
+                  value={formData.serviceType}
+                  onChange={handleChange}
+                  className={inputStyle1}
+                  required
+                >
+                  
+                  <option value="Lawn Care">Lawn Care</option>
+                  <option value="Planting and Transplanting">Planting and Transplanting</option>
+                  <option value="Garden Maintenance">Garden Maintenance</option>
+                  <option value="Soil Improvement">Soil Improvement</option>
+                  <option value="Irrigation Services">Irrigation Services</option>
+                  <option value="Pest and Disease Control">Pest and Disease Control</option>
+                  <option value="Hardscaping">Hardscaping</option>
+                  <option value="Seasonal Services">Seasonal Services</option>
+                  <option value="Landscape Design">Landscape Design</option>
+                  <option value="Tree Sales">Tree Sales</option>
+                  <option value="Plant Propagation">Plant Propagation</option>
+                  <option value="Soil and Fertilizers">Soil and Fertilizers</option>
+                  <option value="Consultation Services">Consultation Services</option>
+                  <option value="Tree Pruning & Removal">Tree Pruning & Removal</option>
+                  <option value="Landscaping Services">Landscaping Services</option>
+                  <option value="Turfing Service">Turfing Service</option>                                  
+                  <option value="Temporary Gardening">Temporary Gardening</option>
+                  <option value="Flower Maintenance">Flower Maintenance</option>
+                  <option value="Rooftop Gardening">Rooftop Gardening</option>
+                  <option value="Yearly Garden Maintenance">Yearly Garden Maintenance</option>
+                  <option value="Artificial Gardening">Artificial Gardening</option>
+                  
+                </select>
+              </div>
+                
                 <div>
                   <label htmlFor="scheduledDate" className={labelStyle}>
                     Scheduled Date <RequiredMark />
@@ -217,10 +259,8 @@ export default function App() {
                   >
                     <option value="">Select City</option>
                     <option value="Kathmandu">Kathmandu</option>
-                    <option value="Janakpur">Janakpur</option>
-                    <option value="Biratnagar">Biratnagar</option>
                     <option value="Pokhara">Pokhara</option>
-                    <option value="Birgunj">Birgunj</option>
+                    <option value="Other">Other</option>
                   </select>
                 </div>
                 <div>
@@ -240,7 +280,7 @@ export default function App() {
               </div>
               <div>
                 <label htmlFor="detailedAddress" className={labelStyle}>
-                  Detailed Address
+                  Nearest Landmark
                 </label>
                 <input
                   type="text"
@@ -292,44 +332,7 @@ export default function App() {
                   />
                 </div>
               </div>
-              <div>
-                <label htmlFor="serviceType" className={labelStyle}>
-                  Select Service Type <RequiredMark />
-                </label>
-                <select
-                  id="serviceType"
-                  name="serviceType"
-                  value={formData.serviceType}
-                  onChange={handleChange}
-                  className={inputStyle1}
-                  required
-                >
-                  
-                  <option value="Lawn Care">Lawn Care</option>
-                  <option value="Planting and Transplanting">Planting and Transplanting</option>
-                  <option value="Garden Maintenance">Garden Maintenance</option>
-                  <option value="Soil Improvement">Soil Improvement</option>
-                  <option value="Irrigation Services">Irrigation Services</option>
-                  <option value="Pest and Disease Control">Pest and Disease Control</option>
-                  <option value="Hardscaping">Hardscaping</option>
-                  <option value="Seasonal Services">Seasonal Services</option>
-                  <option value="Landscape Design">Landscape Design</option>
-                  <option value="Tree Sales">Tree Sales</option>
-                  <option value="Plant Propagation">Plant Propagation</option>
-                  <option value="Soil and Fertilizers">Soil and Fertilizers</option>
-                  <option value="Consultation Services">Consultation Services</option>
-                  <option value="Tree Pruning & Removal">Tree Pruning & Removal</option>
-                  <option value="Landscaping Services">Landscaping Services</option>
-
-                  <option value="Turfing Service">Turfing Service</option>                                  
-                  <option value="Temporary Gardening">Temporary Gardening</option>
-                  <option value="Flower Maintenance">Flower Maintenance</option>
-                  <option value="Rooftop Gardening">Rooftop Gardening</option>
-                  <option value="Yearly Garden Maintenance">Yearly Garden Maintenance</option>
-                  <option value="Artificial Gardening">Artificial Gardening</option>
-                  
-                </select>
-              </div>
+              
             </section>
 
             {/* Additional Details Section */}
@@ -346,7 +349,7 @@ export default function App() {
                   value={formData.notes}
                   onChange={handleChange}
                   className={inputStyle}
-                  placeholder="Mention tools required, preferred gardener, plant types, etc."
+                  placeholder="Please provide any specific instructions, preferences, or details about your garden that would help us serve you better."
                 />
               </div>
             </section>

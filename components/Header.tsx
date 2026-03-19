@@ -168,7 +168,7 @@ export default function Header() {
 
             <div className="flex items-center space-x-2 sm:space-x-3 md:space-x-4">
               {/* Desktop Book Service Button */}
-              <Link href="/book" className="hidden lg:block">
+              <Link href="https://d.sriyog.com/gSewa" className="hidden lg:block">
                 <button className="cursor-pointer buttonColorFill hover:shadow-lg text-white py-2 px-3 xl:px-4 rounded-md font-bold text-sm xl:text-base transition-all duration-200 hover:scale-105">
                   Book a Service
                 </button>
@@ -255,7 +255,7 @@ export default function Header() {
 
             {/* Mobile Book Service Button */}
             <div className="px-4 mt-4 sm:mt-6">
-              <Link href="/book" onClick={() => setMenuOpen(false)}>
+              <Link href="https://d.sriyog.com/gSewa" onClick={() => setMenuOpen(false)}>
                 <button className="w-full bg-gradient-to-l from-[#009000] via-[#009800] to-[#00C400] hover:shadow-lg text-white py-3 rounded-lg font-semibold text-sm sm:text-base transition-all duration-200">
                   Book a Service
                 </button>

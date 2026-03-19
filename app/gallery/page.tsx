@@ -577,7 +577,7 @@ const GalleryPage: React.FC = () => {
       <meta property="og:title" content="GardenSewa gallerys in Nepal" />
       <meta property="og:type" content="website" />
       <meta property="og:description" content="Gardensewa.com offers expert GardenSewa gallerys, plant care, landscaping, and GardenSewa gallery to help transform your outdoor spaces into beautiful, vibrant gardens. Get professional assistance with lawn care, tree trimming, and more!" />
-      <meta property="og:image" content="https://www.gardensewa.com/og/gallery.jpg" />
+      <meta property="og:image" content="https://www.gardensewa.com/og/default.jpg" />
       <meta property="og:image:alt" content="GardenSewa gallerys in Nepal" />
 
       </Head>

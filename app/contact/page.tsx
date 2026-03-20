@@ -1,5 +1,6 @@
 // pages/contact.tsx
 import React from "react";
+import Image from 'next/image';
 import Head from "next/head";
 import { User, Mail, Phone, ArrowRight, Globe, MapPin } from "lucide-react";
 import { ChevronRight } from "lucide-react";
@@ -169,98 +170,7 @@ const ContactPage = () => {
             {/* Right Column - Contact Form */}
             <div className="w-full lg:w-1/2 flex justify-center items-start">
               <div className="rounded-2xl lg:rounded-3xl p-6 sm:p-8 lg:p-12 w-full border border-card-stroke-light">
-                <div className="space-y-4 lg:space-y-3">
-                  {/* Name */}
-                  <div>
-                    <label
-                      htmlFor="name"
-                      className="block text-base sm:text-lg font-semibold text-body mb-2 lg:mb-3"
-                    >
-                      Name
-                    </label>
-                    <div className="relative">
-                      <div className="absolute inset-y-0 left-0 flex items-center pl-3 sm:pl-4 pointer-events-none">
-                        <User className="h-5 w-5 sm:h-6 sm:w-6 text-body" />
-                      </div>
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        placeholder="Enter your full name..."
-                        className="w-full h-12 sm:h-14 pl-10 sm:pl-12 pr-4 border border-[#2F4F2F] rounded-xl focus:border-green-500 focus:ring-2 focus:ring-green-200 outline-none transition-colors text-base sm:text-lg"
-                      />
-                    </div>
-                  </div>
-
-                  {/* Email */}
-                  <div>
-                    <label
-                      htmlFor="email"
-                      className="block text-base sm:text-lg font-semibold text-body mb-2 lg:mb-3"
-                    >
-                      Email
-                    </label>
-                    <div className="relative">
-                      <div className="absolute inset-y-0 left-0 flex items-center pl-3 sm:pl-4 pointer-events-none">
-                        <Mail className="h-5 w-5 sm:h-6 sm:w-6 text-body" />
-                      </div>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Enter your email address..."
-                        className="w-full h-12 sm:h-14 pl-10 sm:pl-12 pr-4 border border-[#2F4F2F] rounded-xl focus:border-green-500 focus:ring-2 focus:ring-green-200 outline-none transition-colors text-base sm:text-lg"
-                      />
-                    </div>
-                  </div>
-
-                  {/* Phone Number */}
-                  <div>
-                    <label
-                      htmlFor="phone"
-                      className="block text-base sm:text-lg font-semibold text-body mb-2 lg:mb-3"
-                    >
-                      Phone Number
-                    </label>
-                    <div className="relative">
-                      <div className="absolute inset-y-0 left-0 flex items-center pl-3 sm:pl-4 pointer-events-none">
-                        <Phone className="h-5 w-5 sm:h-6 sm:w-6 text-body" />
-                      </div>
-                      <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        placeholder="Enter your phone number..."
-                        className="w-full h-12 sm:h-14 pl-10 sm:pl-12 pr-4 border border-[#2F4F2F] rounded-xl focus:border-green-500 focus:ring-2 focus:ring-green-200 outline-none transition-colors text-base sm:text-lg"
-                      />
-                    </div>
-                  </div>
-
-                  {/* Message */}
-                  <div>
-                    <label
-                      htmlFor="message"
-                      className="block text-base sm:text-lg font-semibold text-body mb-2 lg:mb-3"
-                    >
-                      Message
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      rows={5}
-                      placeholder="Write your message here..."
-                      className="w-full px-3 sm:px-4 py-3 sm:py-4 border border-[#2F4F2F] rounded-xl focus:border-green-500 focus:ring-2 focus:ring-green-200 outline-none transition-colors resize-none text-base sm:text-lg"
-                    ></textarea>
-                  </div>
-
-                  {/* Submit Button */}
-                  <div className="flex justify-end pt-4">
-                    <button className="px-6 sm:px-8 lg:px-10 py-3 sm:py-4 buttonColorFill text-white font-semibold rounded-full transition-colors duration-200 flex items-center space-x-2 sm:space-x-3 shadow-lg hover:shadow-xl text-base sm:text-lg">
-                      <span>Send Message</span>
-                      <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6" />
-                    </button>
-                  </div>
-                </div>
+                <Image src="/contact/contact.jpg" alt="Let's have a coffee" width={500} height={700} className="rounded-lg shadow-md"/>
               </div>
             </div>
           </div>

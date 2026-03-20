@@ -211,7 +211,7 @@ const ServiceCard: React.FC<{ service: Service }> = ({ service }) => (
         {service.description}
       </p>
 
-      <a href="https://d.sriyog.com/gSewa" target="_blank" rel="noopener noreferrer">
+      <a href="/book" target="_blank" rel="noopener noreferrer">
       <button className="buttonColorFill text-white py-2 sm:py-2.5 md:py-3 px-4 sm:px-5 md:px-6 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 text-sm sm:text-base cursor-pointer">
         Book a Service
       </button>

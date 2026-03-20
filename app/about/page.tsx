@@ -226,7 +226,7 @@ export default function AboutPage() {
             </p>
             <div className="mt-4 md:mt-0">
               <a
-                href="/partnership"
+                href="https://d.sriyog.com/gSewa"
                 className="rounded-full px-6 py-3 font-semibold text-white transition duration-300 ease-in-out buttonColorFill"
               >
                 Become a Partner

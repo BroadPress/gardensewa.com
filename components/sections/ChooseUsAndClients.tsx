@@ -38,7 +38,7 @@ const ChooseUs: React.FC = () => {
       description: "Garden landscaping and design services in Nepal",
     },
     {
-      icon: "/icons/Vector.png",
+      icon: "/icons/gardener.png",
       title: "Hire a Gardener",
       description: "Hire a gardener for your home in Kathmandu",
     },

@@ -4,7 +4,7 @@ const Floating: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center">
      {/* Floating Action Buttons */}
-      <div className="fixed bottom-4 right-4 flex flex-col space-y-3 z-50 mb-12">
+      <div className="fixed bottom-4 right-4 flex flex-col space-y-6 z-50 mb-12">
         {/* Call Button */}
         <a
           href="tel:+9779852025735"

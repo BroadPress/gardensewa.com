@@ -37,9 +37,11 @@ const NEWS_ITEMS = [
 ];
 
 const SOCIAL_LINKS = [
-  { src: "/icons/fb.png", alt: "Facebook" },
-  { src: "/icons/ld.png", alt: "LinkedIn" },
-  { src: "/icons/twitter.png", alt: "Twitter" },
+  
+  { src: "/icons/broadpress.svg", alt: "BroadPress" },
+  { src: "/icons/facebook.svg", alt: "Facebook" },
+  // { src: "/icons/instagram.svg", alt: "Instagram" },
+  // { src: "/icons/x.svg", alt: "Elon Musk" },
 ];
 
 // Reusable Components
@@ -192,28 +194,21 @@ const NewsletterSection = memo(() => (
       <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4 sm:gap-6 py-4 sm:py-6 md:h-full">
         <div className="text-center md:text-left">
           <h2 className="text-2xl sm:text-3xl md:text-3xl xl:text-[52px] font-semibold leading-tight">
-            Subscribe Newsletter
+            We are Hiring!
           </h2>
           <p className="text-sm sm:text-base mt-2">
-            Get updates on services, offers, and plant tips straight to your
+            Join us promoting tourism & hospitality of Nepal. 
             inbox.
           </p>
         </div>
-        <form className="flex bg-white rounded-full overflow-hidden w-full max-w-sm max-sm:w-[80%]">
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="px-3 sm:px-4 py-2 w-full text-black font-bold focus:outline-none h-[44px] sm:h-[52px] text-sm sm:text-base"
-            required
-          />
-          <button
-            type="submit"
-            className="buttonColorFill text-white w-[70px] sm:w-[85px] px-3 sm:px-4 py-2 rounded-full my-1 mx-1 flex items-center justify-center transition-all duration-300"
-            aria-label="Subscribe to newsletter"
-          >
-            <ArrowRight className="w-[20px] h-[20px] sm:w-[26px] sm:h-[26px]" />
-          </button>
-        </form>
+        <div className="mt-4 md:mt-0">
+              <a
+                href="/career"
+                className="rounded-full px-6 py-3 font-semibold text-white transition duration-300 ease-in-out buttonColorFill"
+              >
+                Apply Now
+              </a>
+            </div>
       </div>
     </div>
   </div>

@@ -7,7 +7,7 @@ const slides = [
   {
     id: 1,
     img: "/home/slider/1.jpg",
-    alt: "sliderimg1",
+    alt: "Gardening Services in Nepal",
     title: "Gardening Services in Nepal ",
     subtitle:
       "Our team offers personalized gardening services from one time cleanups to regular maintenance, tailored to keep your garden fresh, vibrant, and well cared for.",
@@ -19,7 +19,7 @@ const slides = [
   {
     id: 2,
     img: "/home/slider/2.jpg",
-    alt: "sliderimg2",
+    alt: "Gardening Services for Hotels and Resorts in Nepal",
     title: "Gardening Services for Hotels and Resorts in Nepal",
     subtitle:
       "We provide services for hotels and resorts to maintain inviting green spaces with plant care, landscaping, and seasonal upkeep that enhance guest experiences on yearly basis.",
@@ -31,7 +31,7 @@ const slides = [
   {
     id: 3,
     img: "/home/slider/3.jpg",
-    alt: "sliderimg3",
+    alt: "Best Gardening Services in Kathmandu",
     title: "Best Gardening Services in Kathmandu",
     subtitle:
       "Discover a wide range of plants and garden solutions delivered with care. Our experts design, plant, and maintain your garden so you can enjoy a fresh and peaceful outdoor space every day.",

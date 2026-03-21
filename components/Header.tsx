@@ -92,38 +92,66 @@ export default function Header() {
           </div>
 
           <div className="gap-3 items-center hidden sm:flex">
-            <a
-              href="#"
-              className="group p-2 rounded-full bg-white/10 hover:bg-blue-600 transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg backdrop-blur-sm"
-              aria-label="Follow us on Facebook"
-            >
-              <Facebook className="w-4 h-4 text-white group-hover:text-white transition-colors duration-300" />
-            </a>
+          {/* Facebook */}
+          <a
+            href="https://www.facebook.com/gardensewa" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="group p-2 rounded-full bg-white/10 hover:bg-blue-600 transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg backdrop-blur-sm"
+            aria-label="Follow us on Facebook"
+          >
+            <img
+              src="/icons/facebook.svg"
+              alt="Facebook"
+              className="w-4 h-4 object-contain transition-transform duration-300 group-hover:brightness-125"
+            />
+          </a>
 
-            <a
-              href="#"
-              className="group p-2 rounded-full bg-white/10 hover:bg-red-600 transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg backdrop-blur-sm"
-              aria-label="Subscribe to our YouTube channel"
-            >
-              <Youtube className="w-4 h-4 text-white group-hover:text-white transition-colors duration-300" />
-            </a>
+          {/* BroadPress */}
+          <a
+            href="https://biratinfo.com/author/gardensewa" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="group p-2 rounded-full bg-white/10 hover:bg-red-600 transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg backdrop-blur-sm"
+            aria-label="View Our Blog in BroadPress"
+          >
+            <img
+              src="/icons/broadpress.svg"
+              alt="BroadPress"
+              className="w-4 h-4 object-contain transition-transform duration-300 group-hover:brightness-125"
+            />
+          </a>
 
-            <a
-              href="#"
-              className="group p-2 rounded-full bg-white/10 hover:bg-gradient-to-br hover:from-purple-600 hover:to-pink-500 transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg backdrop-blur-sm"
-              aria-label="Follow us on Instagram"
-            >
-              <Instagram className="w-4 h-4 text-white group-hover:text-white transition-colors duration-300" />
-            </a>
+          {/* Instagram */}
+          <a
+            href="https://www.instagram.com/gardensewa" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="group p-2 rounded-full bg-white/10 hover:bg-gradient-to-br hover:from-purple-600 hover:to-pink-500 transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg backdrop-blur-sm"
+            aria-label="Follow us on Instagram"
+          >
+            <img
+              src="/icons/instagram.svg"
+              alt="Instagram"
+              className="w-4 h-4 object-contain transition-transform duration-300 group-hover:brightness-125"
+            />
+          </a>
 
-            <a
-              href="#"
-              className="group p-2 rounded-full bg-white/10 hover:bg-blue-700 transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg backdrop-blur-sm"
-              aria-label="Connect with us on LinkedIn"
-            >
-              <Linkedin className="w-4 h-4 text-white group-hover:text-white transition-colors duration-300" />
-            </a>
-          </div>
+          {/* Pinterest */}
+          <a
+            href="https://www.pinterest.com/gardensewa" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="group p-2 rounded-full bg-white/10 hover:bg-blue-700 transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg backdrop-blur-sm"
+            aria-label="Connect with us on Pinterest"
+          >
+            <img
+              src="/icons/pinterest.svg"
+              alt="Pinterest"
+              className="w-4 h-4 object-contain transition-transform duration-300 group-hover:brightness-125"
+            />
+          </a>
+        </div>
         </div>
       </section>
 

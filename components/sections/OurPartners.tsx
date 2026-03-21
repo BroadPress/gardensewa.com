@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -25,32 +26,45 @@ const partners = [
 
 export default function OurPartners() {
   return (
-    <section className="flex flex-col gap-6 sm:gap-8 mb-12 sm:mb-16 md:mb-20 w-full max-w-[1300px] px-4 sm:px-6 lg:px-8 mx-auto">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[52px] text-secondary font-bold text-center leading-tight">
+    <section className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14 lg:py-20">
+      {/* TITLE */}
+      <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center mb-8 sm:mb-12">
         Our Partners
       </h2>
 
-      <div className="flex flex-wrap gap-6 justify-center items-center">
+      {/* GRID */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {partners.map((partner) => (
           <div
             key={partner.name}
-            className="bg-white flex flex-col items-center gap-3 sm:gap-4 text-center w-full max-w-[320px] sm:max-w-[360px] md:max-w-[380px] h-auto min-h-[350px] sm:min-h-[400px] md:min-h-[450px] lg:h-[480px] rounded-2xl border-2 border-[#E8E8E8] p-4 sm:p-5 md:p-6 hover:shadow-lg transition-shadow duration-300"
+            className="bg-white border rounded-2xl p-5 sm:p-6 flex flex-col items-center text-center hover:shadow-lg transition duration-300"
           >
-            <div className="relative w-full max-w-[280px] sm:max-w-[320px] md:max-w-[340px] lg:max-w-[369px] h-[200px] sm:h-[250px] md:h-[300px] lg:h-[369px] flex-1 flex items-center justify-center">
-              <img
+            {/* LOGO */}
+            <div className="relative w-full h-40 sm:h-48 md:h-56 mb-4">
+              <Image
                 src={partner.logo}
                 alt={partner.name}
-                className="object-contain w-[300px] h-[300px] rounded-lg"
+                fill
+                className="object-contain"
               />
             </div>
 
-            {/* Partner name - hidden on very small screens to save space */}
+            {/* NAME */}
+            <h3 className="text-base sm:text-lg font-semibold mb-1">
+              {partner.name}
+            </h3>
 
+            {/* DESCRIPTION */}
+            <p className="text-xs sm:text-sm text-gray-500 mb-4">
+              {partner.description}
+            </p>
+
+            {/* BUTTON */}
             <Link
               href={partner.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-secondary py-2 sm:py-2.5 px-4 sm:px-6 rounded-md flex items-center justify-center text-secondary text-sm sm:text-base md:text-lg gap-1.5 hover:bg-secondary hover:text-white transition-all duration-300 w-full max-w-[200px] font-medium"
+              className="mt-auto flex items-center gap-1 border px-4 py-2 rounded-md text-sm sm:text-base hover:bg-black hover:text-white transition"
             >
               Visit Site
               <svg

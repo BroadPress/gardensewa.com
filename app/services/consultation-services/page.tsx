@@ -1,99 +1,117 @@
-// pages/index.js or components/LawnCareService.js
 "use client";
 
 import React, { useState } from "react";
 import Head from "next/head";
 import { ChevronRight, ChevronDown, ChevronUp } from "lucide-react";
 
-const LawnCareService = () => {
+const GardenConsultation = () => {
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
   const toggleFAQ = (id: number) => {
     setOpenFAQ(openFAQ === id ? null : id);
   };
 
-  const services = [
-    { id: 1, title: "Mowing the Lawn", icon: "/services/icons/lawn-care/lawn-mowing.png" },
-    { id: 2, title: "Edge Trimming", icon: "/services/icons/lawn-care/edge-trimming.png" },
-    { id: 3, title: "Aerating Soil", icon: "/services/icons/lawn-care/aerating-soil.png" },
-    { id: 4, title: "Fertilization and Soil Conditioning", icon: "/services/icons/lawn-care/fertillization-soil-conditioning.png" },
-    { id: 5, title: "Lawn Reseeding", icon: "/services/icons/lawn-care/lawn-reseeding.png" },
-    { id: 6, title: "Weeding", icon: "/services/icons/lawn-care/weeding.png" },
-  ];
-
   const faqs = [
-    { id: 1, question: "How do I schedule a lawn care service?" },
-    { id: 2, question: "What is included in a standard lawn maintenance visit?" },
-    { id: 3, question: "How often should my lawn be mowed or fertilized?" },
-    { id: 4, question: "Do you provide services for residential and commercial lawns?" },
-    { id: 5, question: "Are your lawn care methods eco-friendly?" },
+    { 
+      id: 1, 
+      question: "What is garden consultation and why is it important?", 
+      answer: "Garden consultation provides expert guidance on planning, designing, and maintaining gardens. It ensures your outdoor spaces are functional, aesthetically pleasing, and environmentally sustainable." 
+    },
+    { 
+      id: 2, 
+      question: "Do you provide customized garden plans for small spaces?", 
+      answer: "Yes! Our garden consultation services are tailored to your space, whether it's a small balcony, rooftop garden, or large backyard, maximizing beauty and usability." 
+    },
+    { 
+      id: 3, 
+      question: "Can you help with plant selection and soil health?", 
+      answer: "Absolutely. We recommend plants suited to your climate, soil type, and maintenance preferences, ensuring long-term growth and a thriving garden." 
+    },
+    { 
+      id: 4, 
+      question: "Do you offer ongoing maintenance guidance?", 
+      answer: "Yes. Along with planning and design, we provide guidance on watering, pruning, fertilization, and seasonal care to keep your garden healthy year-round." 
+    },
+    { 
+      id: 5, 
+      question: "Are your garden consultation services eco-friendly?", 
+      answer: "Yes, we prioritize sustainable practices, including native plant recommendations, water-efficient irrigation, and organic care methods." 
+    },
   ];
 
   return (
     <div className="flex flex-col gap-0 mb-40">
       <Head>
-        <title>Lawn Care Service in Kathmandu Nepal</title>
-        <meta name="description" content="Professional lawn care services in Nepal" />
+        <title>Garden Consultation Services in Kathmandu Nepal</title>
+        <meta 
+          name="description" 
+          content="Professional garden consultation services in Kathmandu Nepal, offering expert advice on garden design, landscaping, tree sales, and lawn care for homes and businesses." 
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       {/* Hero Section */}
-      <div className="relative w-full h-[360px] flex items-center justify-center text-white mb-20">
+      <div className="relative w-full h-[560px] flex items-center justify-center text-white mb-20">
         <img
-          src="/services/1.jpg"
-          alt="Lawn Care"
+          src="/services/16.jpg"
+          alt="Garden Consultation Service in Kathmandu, Nepal"
           className="absolute inset-0 z-0 object-cover h-full w-full"
         />
         <div className="absolute inset-0 bg-black opacity-60 z-10"></div>
         <div className="relative z-10 max-w-4xl text-center px-4">
           <div className="flex flex-col items-center justify-center h-[277px] px-4 py-8 text-center">
             <div className="mb-4 text-sm w-full flex justify-center items-center text-card">
-              Home <ChevronRight width={20} height={20} />
-              <span className="text-text ml-2 font-semibold">Lawn Care</span>
+              Home <ChevronRight width={20} height={20} />Services <ChevronRight width={20} height={20} />
+              <span className="text-text ml-2 font-semibold">Garden Consultation</span>
             </div>
             <h1 className="mb-4 text-5xl font-bold text-white md:text-[52px]">
-              Lawn Care Services in Kathmandu
+              Garden Consultation Services in Kathmandu
             </h1>
             <p className="max-w-[858px] mb-8 text-base leading-relaxed md:text-lg text-white">
-              Showcasing our finest lawn care and landscaping services — from residential gardens to commercial lawns, each project is a step towards greener living.
+              Transform your garden into a lush, sustainable, and beautiful space with professional guidance, customized planning, and expert landscaping advice.
             </p>
           </div>
         </div>
       </div>
 
       {/* Description */}
-      <div className="mx-auto px-5 py-10 max-w-5xl text-justify">
+      <div className="mx-auto px-5 py-10 max-w-5xl text-center">
         <h2 className="text-3xl font-bold text-teal-800 mb-5">
-          Professional Lawn Care Services in Nepal
+          Expert Garden Consultation in Nepal
         </h2>
+
         <p className="text-gray-700 leading-relaxed mb-8">
-          At Garden Sewa, we provide expert lawn care services to keep your outdoor spaces vibrant, healthy, and beautiful all year round. Our services include mowing, edging, fertilization, aeration, reseeding, and weeding. We also ensure soil health and implement eco-friendly practices to maintain sustainable, lush green lawns.
+          Garden Sewa offers comprehensive garden consultation services to help homeowners and businesses design, plan, and maintain their outdoor spaces. From selecting the right plants to designing layouts and advising on soil and irrigation, we provide everything needed to create stunning and functional gardens.
         </p>
 
-        {/* 3 Cards */}
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
-          <div className="bg-white rounded-xl shadow-md overflow-hidden p-5 text-center">
-            <div className="bg-gray-200 h-40 mb-4 flex items-center justify-center">
-              <span className="text-gray-500">Image Placeholder</span>
+        <p className="text-gray-700 leading-relaxed mb-6">
+          Our team combines creativity with environmental awareness to deliver gardens that are not only beautiful but also sustainable and low-maintenance. We help you achieve the perfect balance of aesthetics, functionality, and ecology.
+        </p>
+
+        <p className="text-gray-700 leading-relaxed mb-6">
+          Whether you are planning a residential garden, commercial landscape, or rooftop greenery, our expert consultation ensures optimal design, proper plant selection, and long-term care strategies.
+        </p>
+
+        <h2 className="text-3xl font-bold text-teal-800 mb-5">
+          Related Services
+        </h2>
+
+        {/* Related Services Cards */}
+        <div className="grid md:grid-cols-3 gap-6 mb-12 text-center">
+          {[
+            { img: "/services/9.jpg", title: "Landscape Design Services", desc: "Professional landscape design to create functional, beautiful, and sustainable outdoor spaces." },
+            { img: "/services/10.jpg", title: "Tree Sales Services", desc: "High-quality tree selection and delivery for gardens, parks, and residential landscapes." },
+            { img: "/services/1.jpg", title: "Lawn Care Services", desc: "Expert lawn maintenance including mowing, fertilization, and soil care for a healthy, green lawn." },
+          ].map((service, idx) => (
+            <div key={idx} className="bg-white rounded-xl shadow-md p-5">
+              <div className="h-40 mb-4 overflow-hidden rounded-lg">
+                <img src={service.img} alt={service.title} className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <h3 className="font-semibold text-lg mb-2">{service.title}</h3>
+              <p>{service.desc}</p>
             </div>
-            <h3 className="font-semibold text-lg mb-2">Expert Lawn Mowing</h3>
-            <p>Precise and regular mowing for a well-maintained lawn throughout the year.</p>
-          </div>
-          <div className="bg-white rounded-xl shadow-md overflow-hidden p-5 text-center">
-            <div className="bg-gray-200 h-40 mb-4 flex items-center justify-center">
-              <span className="text-gray-500">Image Placeholder</span>
-            </div>
-            <h3 className="font-semibold text-lg mb-2">Soil & Fertilization</h3>
-            <p>Enhancing soil health and using fertilizers to promote strong, green growth.</p>
-          </div>
-          <div className="bg-white rounded-xl shadow-md overflow-hidden p-5 text-center">
-            <div className="bg-gray-200 h-40 mb-4 flex items-center justify-center">
-              <span className="text-gray-500">Image Placeholder</span>
-            </div>
-            <h3 className="font-semibold text-lg mb-2">Lawn Reseeding</h3>
-            <p>Revitalizing your lawn with reseeding for thick, healthy, and uniform grass coverage.</p>
-          </div>
+          ))}
         </div>
 
         {/* FAQ Section */}
@@ -114,11 +132,7 @@ const LawnCareService = () => {
                 </button>
                 {openFAQ === faq.id && (
                   <div className="p-5 border-t border-gray-200 text-gray-700 transition-all duration-300">
-                    {faq.id === 1 && "You can schedule a lawn care service by contacting Garden Sewa via phone, email, or our website booking form."}
-                    {faq.id === 2 && "A standard lawn maintenance visit includes mowing, edging, fertilization, weeding, and inspection of soil health."}
-                    {faq.id === 3 && "The frequency of mowing and fertilization depends on the lawn type, season, and growth rate; our experts create a customized schedule."}
-                    {faq.id === 4 && "Yes, we provide services for both residential and commercial lawns, including hotels, offices, and public spaces."}
-                    {faq.id === 5 && "Absolutely, we follow eco-friendly practices including organic fertilizers and sustainable lawn care techniques."}
+                    {faq.answer}
                   </div>
                 )}
               </div>
@@ -130,4 +144,4 @@ const LawnCareService = () => {
   );
 };
 
-export default LawnCareService;
+export default GardenConsultation;

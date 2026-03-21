@@ -42,7 +42,7 @@ export default function App() {
               className="bg-white rounded-xl p-8 min-h-[200px] flex flex-col items-center justify-center text-center border border-gray-300 hover:shadow-md transition"
             >
               {/* Logo */}
-              <div className="w-32 h-32 mb-4">
+              <div className="w-64 h-64 mb-4">
                 <img
                   src={partner.logo}
                   alt={partner.name}

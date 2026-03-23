@@ -123,7 +123,7 @@ const Footer = () => {
             </h4>
 
             <p className="text-sm text-white/80 mb-4 leading-relaxed">
-              Biratnagar, Nepal <br />
+              Kathmandu, Nepal <br />
               +977-9852025735
             </p>
 

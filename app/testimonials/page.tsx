@@ -13,13 +13,13 @@ const testimonials: Testimonial[] = [
   {
     name: "Smarika Karki",
     quote:
-      "GardenSewa's garden maintenance service has been a lifesaver for our home. They keep our garden looking pristine year-round with regular upkeep, weeding, and plant health checks. Highly professional and reliable!",
+      "I contacted GardenSewa to manage our garden, and I am very satisfied with their work. They cleaned everything, planted new flowers, and even gave tips on how to take care of plants.",
     image: "/testimonials/1.png",
   },
   {
     name: "Gurpreet Singh",
     quote:
-      "The landscaping team at GardenSewa transformed our backyard into a paradise. Their creative design and expert execution created beautiful pathways, flower beds, and water features that perfectly match our vision.",
+      "We renovated our garden with GardenSewa. The team was friendly and understood exactly what we wanted. Now it feels like a resort. Highly recommended!",
     image: "/testimonials/2.png",
     
   },

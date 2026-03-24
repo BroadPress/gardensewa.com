@@ -123,9 +123,14 @@ const Footer = () => {
             </h4>
 
             <p className="text-sm text-white/80 mb-4 leading-relaxed">
-              Kathmandu, Nepal <br />
+            Kathmandu, Nepal <br />
+            <a 
+              href="tel:+9779852025735" 
+              className="hover:text-white transition"
+            >
               +977-9852025735
-            </p>
+            </a>
+          </p>
 
             <Link
               href="/contact"

@@ -3,6 +3,7 @@
 import { ChevronRight } from "lucide-react";
 import Head from "next/head";
 import React from "react";
+import Roadblock from "@/components/Roadblock";
 
 export default function App() {
   return (
@@ -21,6 +22,9 @@ export default function App() {
             Book a Service
           </span>
         </div>
+
+        {/* Roadblock */}
+        <Roadblock />
 
         <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
           Book Gardening Service in Nepal

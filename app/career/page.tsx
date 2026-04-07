@@ -3,6 +3,7 @@
 import { ChevronRight } from "lucide-react";
 import Head from "next/head";
 import React from "react";
+import Roadblock from "@/components/Roadblock";
 
 export default function App() {
   return (
@@ -26,6 +27,9 @@ export default function App() {
           Vacancy in Gardening Service
         </h1>
       </div>
+
+      {/* Roadblock */}
+        <Roadblock />
 
       {/* Airtable */}
       <div className="w-full flex justify-center">

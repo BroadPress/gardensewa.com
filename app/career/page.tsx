@@ -38,7 +38,7 @@ export default function App() {
             src="https://airtable.com/embed/appm7aDMLp2LtR1gX/pagsQUmriTA6BL8PB/form"
             className="w-full"
             style={{
-              height: "1500px",
+              height: "100%",
               border: "none",
             }}
           ></iframe>

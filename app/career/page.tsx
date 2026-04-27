@@ -19,7 +19,7 @@ export default function App() {
         <div className="text-sm flex items-center justify-center text-gray-500 mb-2">
           Home <ChevronRight size={18} className="mx-1" />
           <span className="font-semibold text-gray-800">
-            Book a Service
+            Career in Gardening Service
           </span>
         </div>
 

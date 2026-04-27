@@ -11,7 +11,7 @@ export default function App() {
       {/* SEO */}
       <Head>
         <meta name="keywords" content="gardening services Nepal, GardenSewa" />
-        <meta property="og:title" content="Book Gardening Service" />
+        <meta property="og:title" content="Career in Gardening Service" />
       </Head>
 
       {/* Header */}
